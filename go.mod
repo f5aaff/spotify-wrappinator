@@ -1,3 +1,3 @@
-module main.wrappinator
+module wrappinator
 
 go 1.18

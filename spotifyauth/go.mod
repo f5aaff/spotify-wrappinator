@@ -1,4 +1,4 @@
-module authgen.wrappinator
+module wrappinator.spotifyauth
 
 go 1.18
 
