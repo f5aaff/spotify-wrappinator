@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-
+	"context"
 	spotifyauth "wrappinator.spotifyauth"
+	spotify "wrappinator.spotify"
 )
 
 const redirectURI = "localhost:8080/callback"
@@ -22,6 +23,22 @@ func main() {
 		log.Println("request: ", r.URL.String())
 	})
 
+	go func() {
+		err := http.ListenAndServe(":8080", nil)
+		if err != nil {
+			log.Fatal(err)
+		}
+	} ()
+
+	url := auth.AuthURL(state)
+	fmt.Println("login at: ",url)
+
+	client := <-ch
+
+	user, err := client.CurrentUser(context.Background())
+	if err != nil {
+		log.Fatal(err)
+	}
 }
 
 func completeAuth(w http.ResponseWriter, r *http.Request) {

@@ -1,4 +1,4 @@
-module wrappinator.spot
+module wrappinator.spotify
 
 go 1.18
 
