@@ -1,9 +1,12 @@
 package spotify
 
 import (
-//"context"
+"context"
 "errors"
 "net/http"
+"encoding/json"
+"time"
+
 //"os"
 
 "golang.org/x/oauth2"
@@ -66,33 +69,42 @@ func retryDuration(resp *http.Response) time.Duration {
 
 func (c *Client) get(ctx context.Context, url string, result interface{}) error {
 
-	req, err := http.NewRequestWithContext(ctx, "GET", url, nil)
-	if c.acceptLanguage != "" {
-		req.Header.Set("Accept-Language",c.acceptLanguage)
-	}
-	if err != nil {
-		return err
-	}
-	resp, err := http.Do(req)
-	if err != nil {
-		return err
-	}
-	
-	defer resp.Body.Close()
-
-	if resp.StatusCode == rateLimitExceededCode {
-		select {
-		case <- ctx.Done():
-		case <- time.After(retryDuration(resp)):
-			continue
+	for {
+		req, err := http.NewRequestWithContext(ctx, "GET", url, nil)
+		if c.acceptLanguage != "" {
+			req.Header.Set("Accept-Language",c.acceptLanguage)
 		}
-	}
-	if resp.StatusCode == http.StatusNoContent {
-		return nil
+		if err != nil {
+			return err
+		}
+		resp, err := c.http.Do(req)
+		if err != nil {
+			return err
+		}
+		
+		defer resp.Body.Close()
+
+		if resp.StatusCode == rateLimitExceededCode {
+			select {
+			case <- ctx.Done():
+			case <- time.After(retryDuration(resp)):
+				continue
+			}
+		}
+		if resp.StatusCode == http.StatusNoContent {
+			return nil
+		}
+
+		if resp.StatusCode != http.StatusOK {
+			return json.NewDecoder(resp).Decode(result)
+		}
+		err = json.NewDecoder(resp.Body).Decode(result)
+		if err != nil {
+			return err
+		}
+
+		break
 	}
 
-	if resp.StatusCode != http.StatusOK {
-		return c.decodeError(resp)
-	}
-
+	return nil
 }

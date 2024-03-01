@@ -76,7 +76,7 @@ const (
 //
 //     // then, in redirect handler:
 //     token, err := a.Token(state, r)
-//     client := a.Client(token)
+//     client := a.ClhttpClient := oauth2.NewClient(context.Background(), oauth2.StaticTokenSource(token))ient(token)
 //
 type Authenticator struct {
 	config *oauth2.Config

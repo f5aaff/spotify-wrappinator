@@ -4,13 +4,18 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"context"
+//	"context"
+//	"encoding/json"
+	
+
 	spotifyauth "wrappinator.spotifyauth"
 	spotify "wrappinator.spotify"
 )
 
-const redirectURI = "localhost:8080/callback"
+const (
+	redirectURI = "localhost:8080/callback"
 
+	)
 var (
 	auth  = spotifyauth.New(spotifyauth.WithRedirectURL(redirectURI), spotifyauth.WithScopes(spotifyauth.ScopeUserReadPrivate))
 	ch    = make(chan *spotify.Client)
@@ -33,12 +38,14 @@ func main() {
 	url := auth.AuthURL(state)
 	fmt.Println("login at: ",url)
 
-	client := <-ch
-
-	user, err := client.CurrentUser(context.Background())
-	if err != nil {
-		log.Fatal(err)
-	}
+	//	targetURL := client.baseURL + "me"
+//	var obj map[string]*json.RawMessage
+	
+	user,err := spotify.get(context.Background(),url,&obj)
+//	fmt.Println(user)
+//	if err != nil {
+//		log.Fatal(err)
+//	}
 }
 
 func completeAuth(w http.ResponseWriter, r *http.Request) {
