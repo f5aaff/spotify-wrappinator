@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"io/ioutil"
@@ -64,17 +65,20 @@ func main() {
 	authURL := a.AuthURL(state)
 	fmt.Println("login at this authURL:", authURL)
 
-	go func() {
-		err := http.ListenAndServe(":8080", nil)
-		if err != nil {
-			log.Fatal(err)
-		}
-	}()
-
+	err = http.ListenAndServe(":8080", nil)
+	if errors.Is(err, http.ErrServerClosed) {
+		fmt.Printf("server closed\n")
+	} else if err != nil {
+		fmt.Printf("error starting server: %s\n", err)
+	}
+	//if err != nil {
+	//	return
+	//}
 }
 
 func completeAuth(w http.ResponseWriter, r *http.Request) {
 	tok, err := a.Token(r.Context(), state, r)
+	fmt.Println(tok)
 	if err != nil {
 		http.Error(w, "could not retrieve token", http.StatusForbidden)
 		log.Fatal(err)
