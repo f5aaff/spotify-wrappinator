@@ -19,7 +19,7 @@ const (
 	redirectURL               = "http://localhost:8080/callback"
 	clientId           string = "1b0ac2b304e941d9890dc016171c2226"
 	clientSecret       string = "dd8f644ef4074f7f82daca80487818b6"
-	tokenStorePath     string = "$HOME/.config/wrappinator/token/"
+	tokenStorePath     string = "/home/f5adff/.config/wrappinator/token/"
 	tokenStoreFileName string = "token.json"
 )
 
@@ -82,14 +82,16 @@ func StoreTokenToFile(tok *oauth2.Token) {
 	path := tokenStorePath + tokenStoreFileName
 	err := ioutil.WriteFile(path, f, 0644)
 	if err != nil {
+		fmt.Println("broken", err)
 		return
 	}
 }
 func readTokenFromFile(tok *oauth2.Token) *oauth2.Token {
 	f, err := ioutil.ReadFile(tokenStorePath + tokenStoreFileName)
-	if err != nil {
+	if err == nil {
 		err := json.Unmarshal(f, &tok)
 		if err != nil {
+			fmt.Println("readTokenFromFile:", err)
 			return nil
 		}
 		return tok
@@ -99,9 +101,8 @@ func readTokenFromFile(tok *oauth2.Token) *oauth2.Token {
 func completeAuth(w http.ResponseWriter, r *http.Request) {
 
 	if readTokenFromFile(&validToken) == nil {
-
 		tok, err := a.Token(r.Context(), state, r)
-		fmt.Println(tok)
+		fmt.Println("storing token to file...")
 		StoreTokenToFile(tok)
 		if err != nil {
 			http.Error(w, "could not retrieve token", http.StatusForbidden)
