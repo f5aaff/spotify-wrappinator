@@ -22,7 +22,9 @@ const (
 )
 
 var (
-	//random state string, probably has some actual use - but I'm not using it
+	/*
+	 TODO: generate rand base64 string on token creation
+	*/
 	state = "abc123"
 	//auth is a wrapper of sorts around an oauth2 authenticator struct, allows for context based tokens, so they can be backgrounded and re-authenticate when required.
 	a          = auth.New(auth.WithRedirectURL(redirectURL), auth.WithClientID(clientId), auth.WithClientSecret(clientSecret), auth.WithScopes(auth.ScopeUserReadPrivate))
