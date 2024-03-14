@@ -1,7 +1,6 @@
-package main
+package agent
 
 import (
-	"context"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -27,29 +26,47 @@ var (
 	validToken oauth2.Token
 )
 
-func main() {
+type Agent struct {
+	conf  *oauth2.Config
+	token *oauth2.Token
+}
+type AgentOpt func(a *Agent)
 
-	/*
-		if a token can't be read from file, prompt the user to log in
-	*/
-	if readTokenFromFile(&validToken) == nil {
-
-		http.HandleFunc("/callback", AuthoriseSession)
-		http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-			log.Println("request: ", r.URL.String())
-		})
+func WithToken(token oauth2.Token) AgentOpt {
+	return func(a *Agent) {
+		a.token = &token
 	}
-	token, err := auth.RefreshToken(conf, context.Background(), &validToken)
-	if err != nil {
-		log.Fatalf("Token Refresh error: %s", err.Error())
+}
+func WithConf(conf oauth2.Config) AgentOpt {
+	return func(a *Agent) {
+		a.conf = &conf
 	}
-	c := auth.Client(conf, context.Background(), token)
-
-	res, _ := c.Get("https://api.spotify.com/v1/" + "me/playlists")
-	out, _ := ioutil.ReadAll(res.Body)
-	fmt.Println(string(out))
 }
 
+func New(conf oauth2.Config, token oauth2.Token, agentopts ...AgentOpt) *Agent {
+	a := &Agent{
+		conf:  &conf,
+		token: &token,
+	}
+	for _, opt := range opts {
+		opt(a)
+	}
+	return a
+}
+
+func readTokenFromFile(a *Agent) bool {
+	log.Println("readTokenFromFile: reading token from file...")
+	f, err := ioutil.ReadFile(tokenStorePath + tokenStoreFileName)
+	if err == nil {
+		err := json.Unmarshal(f, &a.token)
+		if err != nil {
+			log.Println("readTokenFromFile: ERROR: " + err.Error())
+			return false
+		}
+		log.Println("token read from file successfully...")
+	}
+	return true
+}
 func StoreTokenToFile(tok *oauth2.Token) error {
 	f, _ := json.MarshalIndent(tok, "", " ")
 	path := tokenStorePath + tokenStoreFileName
@@ -61,38 +78,27 @@ func StoreTokenToFile(tok *oauth2.Token) error {
 	}
 	return nil
 }
-func readTokenFromFile(tok *oauth2.Token) *oauth2.Token {
-	log.Println("readTokenFromFile: reading token from file...")
-	f, err := ioutil.ReadFile(tokenStorePath + tokenStoreFileName)
-	if err == nil {
-		err := json.Unmarshal(f, &tok)
-		if err != nil {
-			return nil
-		}
-		log.Println("token read from file successfully...")
-		return tok
-	}
-	return nil
-}
 
-func AuthoriseSession(w http.ResponseWriter, r *http.Request) {
+func AuthoriseSession(w http.ResponseWriter, r *http.Request) (*oauth2.Token, error) {
 	token, err := auth.GetToken(conf, r.Context(), state, r)
 	if err != nil {
 		http.Error(w, "token could not be retrieved", http.StatusForbidden)
-		log.Fatal(err)
+		return nil, errors.New(err.Error())
 	}
 	log.Println("AuthoriseSession: Storing Token to File...")
 	if err = StoreTokenToFile(token); err != nil {
 		log.Println("Could Not Save token:" + err.Error())
+		return nil, errors.New(err.Error())
 	}
 	if st := r.FormValue("state"); st != state {
 		http.NotFound(w, r)
-		log.Fatalf("state mismatch: %s != %s\n", st, state)
+		return nil, errors.New("AuthoriseSession: state Mismatch")
 	}
 
 	_, err = fmt.Fprintf(w, "login successful\n%s", token)
 	if err != nil {
 		log.Printf("AuthoriseSession: " + err.Error())
-		return
+		return nil, errors.New(err.Error())
 	}
+	return token, nil
 }
