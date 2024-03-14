@@ -82,43 +82,44 @@ type Authenticator struct {
 	config *oauth2.Config
 }
 
-type AuthenticatorOption func(a *Authenticator)
+type ConfigOpt func(a *oauth2.Config)
+type ConfigFunc func(a *oauth2.Config)
 
 // WithClientID allows a client ID to be specified. Without this the value of the SPOTIFY_ID environment
 // variable will be used.
-func WithClientID(id string) AuthenticatorOption {
-	return func(a *Authenticator) {
-		a.config.ClientID = id
+func WithClientID(id string) ConfigOpt {
+	return func(a *oauth2.Config) {
+		a.ClientID = id
 	}
 }
 
 // WithClientSecret allows a client secret to be specified. Without this the value of the SPOTIFY_SECRET environment
 // variable will be used.
-func WithClientSecret(secret string) AuthenticatorOption {
-	return func(a *Authenticator) {
-		a.config.ClientSecret = secret
+func WithClientSecret(secret string) ConfigOpt {
+	return func(a *oauth2.Config) {
+		a.ClientSecret = secret
 	}
 }
 
 // WithScopes configures the oauth scopes that the client should request.
-func WithScopes(scopes ...string) AuthenticatorOption {
-	return func(a *Authenticator) {
-		a.config.Scopes = scopes
+func WithScopes(scopes ...string) ConfigOpt {
+	return func(a *oauth2.Config) {
+		a.Scopes = scopes
 	}
 }
 
 // WithRedirectURL configures a redirect url for oauth flows. It must exactly match one of the
 // URLs specified in your Spotify developer account.
-func WithRedirectURL(url string) AuthenticatorOption {
-	return func(a *Authenticator) {
-		a.config.RedirectURL = url
+func WithRedirectURL(url string) ConfigOpt {
+	return func(a *oauth2.Config) {
+		a.RedirectURL = url
 	}
 }
 
 // New creates an authenticator which is used to implement the OAuth2 authorization flow.
 //
 // By default, NewAuthenticator pulls your client ID and secret key from the SPOTIFY_ID and SPOTIFY_SECRET environment variables.
-func New(opts ...AuthenticatorOption) *Authenticator {
+func New(opts ...ConfigOpt) *oauth2.Config {
 	cfg := &oauth2.Config{
 		ClientID:     os.Getenv("SPOTIFY_ID"),
 		ClientSecret: os.Getenv("SPOTIFY_SECRET"),
@@ -128,15 +129,11 @@ func New(opts ...AuthenticatorOption) *Authenticator {
 		},
 	}
 
-	a := &Authenticator{
-		config: cfg,
-	}
-
 	for _, opt := range opts {
-		opt(a)
+		opt(cfg)
 	}
 
-	return a
+	return cfg
 }
 
 // ShowDialog forces the user to approve the app, even if they have already done so.
@@ -148,14 +145,11 @@ var ShowDialog = oauth2.SetAuthURLParam("show_dialog", "true")
 // State is a token to protect the user from CSRF attacks.  You should pass the
 // same state to `Token`, where it will be validated.  For more info, refer to
 // http://tools.ietf.org/html/rfc6749#section-10.12.
-func (a Authenticator) AuthURL(state string, opts ...oauth2.AuthCodeOption) string {
-	return a.config.AuthCodeURL(state, opts...)
+func getAuthURL(conf *oauth2.Config, state string, opts ...oauth2.AuthCodeOption) string {
+	return conf.AuthCodeURL(state, opts...)
 }
 
-// Token pulls an authorization code from an HTTP request and attempts to exchange
-// it for an access token.  The standard use case is to call Token from the handler
-// that handles requests to your application's redirect URL.
-func (a Authenticator) Token(ctx context.Context, state string, r *http.Request, opts ...oauth2.AuthCodeOption) (*oauth2.Token, error) {
+func GetToken(conf *oauth2.Config, ctx context.Context, state string, r *http.Request, opts ...oauth2.AuthCodeOption) (*oauth2.Token, error) {
 	values := r.URL.Query()
 	if e := values.Get("error"); e != "" {
 		return nil, errors.New("spotify: auth failed - " + e)
@@ -168,24 +162,17 @@ func (a Authenticator) Token(ctx context.Context, state string, r *http.Request,
 	if actualState != state {
 		return nil, errors.New("spotify: redirect state parameter doesn't match")
 	}
-	return a.config.Exchange(ctx, code, opts...)
+	return conf.Exchange(ctx, code, opts...)
 }
 
 // Return a new token if an access token has expired.
 // If it has not expired, return the existing token.
-func (a Authenticator) RefreshToken(ctx context.Context, token *oauth2.Token) (*oauth2.Token, error) {
-	src := a.config.TokenSource(ctx, token)
+func RefreshToken(conf *oauth2.Config, ctx context.Context, token *oauth2.Token) (*oauth2.Token, error) {
+	src := conf.TokenSource(ctx, token)
 	return src.Token()
 }
 
-// Exchange is like Token, except it allows you to manually specify the access
-// code instead of pulling it out of an HTTP request.
-func (a Authenticator) Exchange(ctx context.Context, code string, opts ...oauth2.AuthCodeOption) (*oauth2.Token, error) {
-	return a.config.Exchange(ctx, code, opts...)
-}
-
 // Client creates a *http.Client that will use the specified access token for its API requests.
-// Combine this with spotify.HTTPClientOpt.
-func (a Authenticator) Client(ctx context.Context, token *oauth2.Token) *http.Client {
-	return a.config.Client(ctx, token)
+func Client(conf *oauth2.Config, ctx context.Context, token *oauth2.Token) *http.Client {
+	return conf.Client(ctx, token)
 }
