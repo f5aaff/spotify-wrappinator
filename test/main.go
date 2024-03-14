@@ -1,4 +1,4 @@
-package test
+package main
 
 import (
 	auth "authNoStruct"
@@ -43,7 +43,11 @@ func main() {
 	if err != nil {
 		log.Fatalf("Token Refresh error: %s", err.Error())
 	}
-	fmt.Println(token)
+	c := auth.Client(conf, context.Background(), token)
+
+	res, _ := c.Get("https://api.spotify.com/v1/" + "me/playlists")
+	out, _ := ioutil.ReadAll(res.Body)
+	fmt.Println(string(out))
 }
 
 func StoreTokenToFile(tok *oauth2.Token) error {
@@ -65,6 +69,7 @@ func readTokenFromFile(tok *oauth2.Token) *oauth2.Token {
 		if err != nil {
 			return nil
 		}
+		log.Println("token read from file successfully...")
 		return tok
 	}
 	return nil
