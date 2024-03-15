@@ -4,6 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/joho/godotenv"
 	"golang.org/x/oauth2"
 	"io/ioutil"
 	"log"
@@ -18,6 +19,7 @@ const (
 )
 
 var (
+	envloaderr          = godotenv.Load()
 	state        string = "abc123"
 	clientId     string = os.Getenv("CLIENT_ID")
 	clientSecret string = os.Getenv("CLIENT_SECRET")
@@ -28,6 +30,9 @@ var (
 
 func main() {
 
+	if envloaderr != nil {
+		return
+	}
 	/*
 		if a token can't be read from file, prompt the user to log in
 	*/
