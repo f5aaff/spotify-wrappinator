@@ -15,15 +15,33 @@ type ClientRequest struct {
 	RequestURL string
 	Response   []byte
 }
-type ClientGetFunc func(clientRequest *ClientRequest, a *agent.Agent)
+type ClientGetFunc func(clientRequest *ClientRequest)
+type ClientOpt func(clientRequest *ClientRequest)
 
-func GetReq() ClientGetFunc {
-	return func(request *ClientRequest, a *agent.Agent) {
-		get, _ := a.Client.Get(request.BaseURL + request.RequestURL)
-		err := errors.New("")
-		request.Response, err = ioutil.ReadAll(get.Body)
-		if err != nil {
-			request.Response = nil
-		}
+func WithBaseURL(url string) ClientOpt {
+	return func(request *ClientRequest) {
+		request.BaseURL = url
+	}
+}
+func WithRequestURL(url string) ClientOpt {
+	return func(request *ClientRequest) {
+		request.RequestURL = url
+	}
+}
+
+func New(clientopts ...ClientOpt) *ClientRequest {
+	c := &ClientRequest{}
+	for _, opt := range clientopts {
+		opt(c)
+	}
+	return c
+}
+
+func GetRequest(a *agent.Agent, request *ClientRequest) {
+	get, _ := a.Client.Get(request.BaseURL + request.RequestURL)
+	err := errors.New("")
+	request.Response, err = ioutil.ReadAll(get.Body)
+	if err != nil {
+		request.Response = nil
 	}
 }

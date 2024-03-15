@@ -53,8 +53,8 @@ func main() {
 	//res, _ := a.Client.Get("https://api.spotify.com/v1/" + "me/playlists")
 	//out, _ := ioutil.ReadAll(res.Body)
 	//fmt.Println(string(out))
-	request := &requests.ClientRequest{BaseURL: "https://api.spotify.com/v1", RequestURL: "me/playlists"}
-	requests.GetReq()
+	request := &requests.ClientRequest{BaseURL: "https://api.spotify.com/v1/", RequestURL: "me/playlists"}
+	requests.GetRequest(a, request)
 	fmt.Println(request.BaseURL + "\n" + request.RequestURL + "\n" + string(request.Response))
 }
 

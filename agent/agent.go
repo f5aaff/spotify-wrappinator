@@ -32,7 +32,6 @@ type Agent struct {
 	Client *http.Client
 }
 type AgentOpt func(a *Agent)
-type AgentFunc func(a *Agent)
 
 func WithToken(token oauth2.Token) AgentOpt {
 	return func(a *Agent) {
