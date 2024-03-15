@@ -15,7 +15,7 @@ type ClientRequest struct {
 	RequestURL string
 	Response   []byte
 }
-type ClientGetFunc func(clientRequest *ClientRequest)
+
 type ClientOpt func(clientRequest *ClientRequest)
 
 func WithBaseURL(url string) ClientOpt {
@@ -44,4 +44,8 @@ func GetRequest(a *agent.Agent, request *ClientRequest) {
 	if err != nil {
 		request.Response = nil
 	}
+}
+
+func PostRequest(a *agent.Agent, request *ClientRequest) {
+	
 }
