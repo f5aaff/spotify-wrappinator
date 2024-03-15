@@ -1,9 +1,9 @@
 package agent
 
 import (
+	"context"
 	"encoding/json"
 	"errors"
-	"fmt"
 	"golang.org/x/oauth2"
 	"io/ioutil"
 	"log"
@@ -27,38 +27,53 @@ var (
 )
 
 type Agent struct {
-	conf  *oauth2.Config
-	token *oauth2.Token
+	Conf   *oauth2.Config
+	Token  *oauth2.Token
+	Client *http.Client
 }
 type AgentOpt func(a *Agent)
+type AgentFunc func(a *Agent)
 
 func WithToken(token oauth2.Token) AgentOpt {
 	return func(a *Agent) {
-		a.token = &token
+		a.Token = &token
 	}
 }
 func WithConf(conf oauth2.Config) AgentOpt {
 	return func(a *Agent) {
-		a.conf = &conf
+		a.Conf = &conf
 	}
 }
 
-func New(conf oauth2.Config, token oauth2.Token, agentopts ...AgentOpt) *Agent {
-	a := &Agent{
-		conf:  &conf,
-		token: &token,
+func WithClient(client *http.Client) AgentOpt {
+	return func(a *Agent) {
+		a.Client = client
 	}
-	for _, opt := range opts {
+}
+
+func GetClient() AgentOpt {
+	return func(a *Agent) {
+		if a.Client != nil && a.Conf != nil && a.Token != nil {
+			a.Client = auth.Client(a.Conf, context.Background(), a.Token)
+		}
+	}
+}
+
+func New(conf *oauth2.Config, agentOpts ...AgentOpt) *Agent {
+	a := &Agent{
+		Conf: conf,
+	}
+	for _, opt := range agentOpts {
 		opt(a)
 	}
 	return a
 }
 
-func readTokenFromFile(a *Agent) bool {
+func ReadTokenFromFile(a *Agent) bool {
 	log.Println("readTokenFromFile: reading token from file...")
 	f, err := ioutil.ReadFile(tokenStorePath + tokenStoreFileName)
 	if err == nil {
-		err := json.Unmarshal(f, &a.token)
+		err := json.Unmarshal(f, &a.Token)
 		if err != nil {
 			log.Println("readTokenFromFile: ERROR: " + err.Error())
 			return false
@@ -77,28 +92,4 @@ func StoreTokenToFile(tok *oauth2.Token) error {
 		return errors.New("StoreTokenToFile:" + err.Error())
 	}
 	return nil
-}
-
-func AuthoriseSession(w http.ResponseWriter, r *http.Request) (*oauth2.Token, error) {
-	token, err := auth.GetToken(conf, r.Context(), state, r)
-	if err != nil {
-		http.Error(w, "token could not be retrieved", http.StatusForbidden)
-		return nil, errors.New(err.Error())
-	}
-	log.Println("AuthoriseSession: Storing Token to File...")
-	if err = StoreTokenToFile(token); err != nil {
-		log.Println("Could Not Save token:" + err.Error())
-		return nil, errors.New(err.Error())
-	}
-	if st := r.FormValue("state"); st != state {
-		http.NotFound(w, r)
-		return nil, errors.New("AuthoriseSession: state Mismatch")
-	}
-
-	_, err = fmt.Fprintf(w, "login successful\n%s", token)
-	if err != nil {
-		log.Printf("AuthoriseSession: " + err.Error())
-		return nil, errors.New(err.Error())
-	}
-	return token, nil
 }
