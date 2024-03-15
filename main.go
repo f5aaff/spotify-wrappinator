@@ -8,21 +8,22 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 	agent "wrappinator.agent"
 	auth "wrappinator.auth"
 )
 
 const (
-	redirectURL         = "http://localhost:8080/callback"
-	clientId     string = "1b0ac2b304e941d9890dc016171c2226"
-	clientSecret string = "dd8f644ef4074f7f82daca80487818b6"
+	redirectURL = "http://localhost:8080/callback"
 )
 
 var (
-	state      string = "abc123"
-	conf              = auth.New(auth.WithRedirectURL(redirectURL), auth.WithClientID(clientId), auth.WithClientSecret(clientSecret), auth.WithScopes(auth.ScopeUserReadPrivate))
-	validToken oauth2.Token
-	a          = agent.New(conf, agent.WithToken(validToken))
+	state        string = "abc123"
+	clientId     string = os.Getenv("CLIENT_ID")
+	clientSecret string = os.Getenv("CLIENT_SECRET")
+	conf                = auth.New(auth.WithRedirectURL(redirectURL), auth.WithClientID(clientId), auth.WithClientSecret(clientSecret), auth.WithScopes(auth.ScopeUserReadPrivate))
+	validToken   oauth2.Token
+	a            = agent.New(conf, agent.WithToken(validToken))
 )
 
 func main() {
