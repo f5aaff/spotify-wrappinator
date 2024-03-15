@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"github.com/joho/godotenv"
 	"golang.org/x/oauth2"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 	agent "wrappinator.agent"
 	auth "wrappinator.auth"
+	requests "wrappinator.requests"
 )
 
 const (
@@ -50,9 +50,12 @@ func main() {
 	}
 	a.Client = auth.Client(conf, context.Background(), a.Token)
 
-	res, _ := a.Client.Get("https://api.spotify.com/v1/" + "me/playlists")
-	out, _ := ioutil.ReadAll(res.Body)
-	fmt.Println(string(out))
+	//res, _ := a.Client.Get("https://api.spotify.com/v1/" + "me/playlists")
+	//out, _ := ioutil.ReadAll(res.Body)
+	//fmt.Println(string(out))
+	request := &requests.ClientRequest{BaseURL: "https://api.spotify.com/v1", RequestURL: "me/playlists"}
+	requests.GetReq()
+	fmt.Println(request.BaseURL + "\n" + request.RequestURL + "\n" + string(request.Response))
 }
 
 func AuthoriseSession(w http.ResponseWriter, r *http.Request) {
