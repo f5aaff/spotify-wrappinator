@@ -23,7 +23,7 @@ var (
 	state        string = "abc123"
 	clientId     string = os.Getenv("CLIENT_ID")
 	clientSecret string = os.Getenv("CLIENT_SECRET")
-	conf                = auth.New(auth.WithRedirectURL(redirectURL), auth.WithClientID(clientId), auth.WithClientSecret(clientSecret), auth.WithScopes(auth.ScopeUserReadPrivate))
+	conf                = auth.New(auth.WithRedirectURL(redirectURL), auth.WithClientID(clientId), auth.WithClientSecret(clientSecret), auth.WithScopes(auth.ScopeUserReadPrivate, auth.ScopeUserReadPlaybackState, auth.ScopeUserModifyPlaybackState, auth.ScopeStreaming))
 	validToken   oauth2.Token
 	a            = agent.New(conf, agent.WithToken(validToken))
 )
@@ -36,15 +36,24 @@ func main() {
 	/*
 		if a token can't be read from file, prompt the user to log in
 	*/
-	if !agent.ReadTokenFromFile(a) {
+	if agent.ReadTokenFromFile(a) == false {
 
 		http.HandleFunc("/callback", AuthoriseSession)
 		http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 			log.Println("request: ", r.URL.String())
 		})
+
+		url := auth.GetAuthURL(conf, state)
+		fmt.Println("Please log in to Spotify by visiting the following page in your browser:", url)
+
+		err := http.ListenAndServe(":8080", nil)
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
 	err := errors.New("")
 	a.Token, err = auth.RefreshToken(conf, context.Background(), a.Token)
+	fmt.Println(a.Conf.Scopes)
 	if err != nil {
 		log.Fatalf("Token Refresh error: %s", err.Error())
 	}
@@ -52,10 +61,14 @@ func main() {
 
 	getPlaylistsRequest := requests.New(requests.WithRequestURL("me/playlists"), requests.WithBaseURL("https://api.spotify.com/v1/"))
 	paramRequest := requests.New(requests.WithRequestURL("browse/new-releases"), requests.WithBaseURL("https://api.spotify.com/v1/"))
+	playerRequest := requests.New(requests.WithRequestURL("me/player/devices"), requests.WithBaseURL("https://api.spotify.com/v1/"))
 	requests.GetRequest(a, getPlaylistsRequest)
 	requests.ParamRequest(a, paramRequest)
-	fmt.Println(getPlaylistsRequest.BaseURL + string(getPlaylistsRequest.Response))
-	fmt.Println(paramRequest.BaseURL + paramRequest.RequestURL + string(paramRequest.Response))
+	requests.ParamRequest(a, playerRequest)
+	//	fmt.Println(getPlaylistsRequest.BaseURL + string(getPlaylistsRequest.Response))
+	//	fmt.Println(paramRequest.BaseURL + paramRequest.RequestURL + string(paramRequest.Response))
+
+	fmt.Println(playerRequest.BaseURL + playerRequest.RequestURL + string(playerRequest.Response))
 }
 
 func AuthoriseSession(w http.ResponseWriter, r *http.Request) {

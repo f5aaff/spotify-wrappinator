@@ -78,8 +78,9 @@ func ReadTokenFromFile(a *Agent) bool {
 			return false
 		}
 		log.Println("token read from file successfully...")
+		return true
 	}
-	return true
+	return false
 }
 func StoreTokenToFile(tok *oauth2.Token) error {
 	f, _ := json.MarshalIndent(tok, "", " ")
