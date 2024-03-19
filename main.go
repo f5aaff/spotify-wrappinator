@@ -50,9 +50,12 @@ func main() {
 	}
 	a.Client = auth.Client(conf, context.Background(), a.Token)
 
-	request := requests.New(requests.WithRequestURL("me/playlists"), requests.WithBaseURL("https://api.spotify.com/v1/"))
-	requests.GetRequest(a, request)
-	fmt.Println(request.BaseURL + "\n" + request.RequestURL + "\n" + string(request.Response))
+	getPlaylistsRequest := requests.New(requests.WithRequestURL("me/playlists"), requests.WithBaseURL("https://api.spotify.com/v1/"))
+	paramRequest := requests.New(requests.WithRequestURL("browse/new-releases"), requests.WithBaseURL("https://api.spotify.com/v1/"))
+	requests.GetRequest(a, getPlaylistsRequest)
+	requests.ParamRequest(a, paramRequest)
+	fmt.Println(getPlaylistsRequest.BaseURL + string(getPlaylistsRequest.Response))
+	fmt.Println(paramRequest.BaseURL + paramRequest.RequestURL + string(paramRequest.Response))
 }
 
 func AuthoriseSession(w http.ResponseWriter, r *http.Request) {

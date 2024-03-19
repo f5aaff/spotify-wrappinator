@@ -46,6 +46,16 @@ func GetRequest(a *agent.Agent, request *ClientRequest) {
 	}
 }
 
-func PostRequest(a *agent.Agent, request *ClientRequest) {
-	
+func ParamRequest(a *agent.Agent, request *ClientRequest, opts ...RequestOption) {
+	fullUrl := request.BaseURL + request.RequestURL
+	if params := ProcessOptions(opts...).urlParams.Encode(); params != "" {
+		fullUrl += "?" + params
+	}
+
+	res, _ := a.Client.Get(fullUrl)
+	err := errors.New("")
+	request.Response, err = ioutil.ReadAll(res.Body)
+	if err != nil {
+		request.Response = nil
+	}
 }
