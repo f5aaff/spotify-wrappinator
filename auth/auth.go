@@ -145,7 +145,7 @@ var ShowDialog = oauth2.SetAuthURLParam("show_dialog", "true")
 // State is a token to protect the user from CSRF attacks.  You should pass the
 // same state to `Token`, where it will be validated.  For more info, refer to
 // http://tools.ietf.org/html/rfc6749#section-10.12.
-func getAuthURL(conf *oauth2.Config, state string, opts ...oauth2.AuthCodeOption) string {
+func GetAuthURL(conf *oauth2.Config, state string, opts ...oauth2.AuthCodeOption) string {
 	return conf.AuthCodeURL(state, opts...)
 }
 

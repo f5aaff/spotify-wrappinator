@@ -32,7 +32,6 @@ type Agent struct {
 	Client *http.Client
 }
 type AgentOpt func(a *Agent)
-type AgentFunc func(a *Agent)
 
 func WithToken(token oauth2.Token) AgentOpt {
 	return func(a *Agent) {
@@ -79,8 +78,9 @@ func ReadTokenFromFile(a *Agent) bool {
 			return false
 		}
 		log.Println("token read from file successfully...")
+		return true
 	}
-	return true
+	return false
 }
 func StoreTokenToFile(tok *oauth2.Token) error {
 	f, _ := json.MarshalIndent(tok, "", " ")
