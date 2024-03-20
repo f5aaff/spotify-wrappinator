@@ -16,9 +16,9 @@ func Limit(limit int) RequestOption {
 		reqOpt.urlParams.Set("limit", strconv.Itoa(limit))
 	}
 }
-func Fields(fields string) RequestOption {
+func Fields(field string, val string) RequestOption {
 	return func(reqOpt *RequestOptions) {
-		reqOpt.urlParams.Set("fields", fields)
+		reqOpt.urlParams.Set(field, val)
 	}
 }
 func Timestamp(timestamp string) RequestOption {
