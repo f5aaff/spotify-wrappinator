@@ -11,6 +11,7 @@ import (
 	"os"
 	agent "wrappinator.agent"
 	auth "wrappinator.auth"
+	device "wrappinator.device"
 	requests "wrappinator.requests"
 )
 
@@ -26,6 +27,7 @@ var (
 	conf                = auth.New(auth.WithRedirectURL(redirectURL), auth.WithClientID(clientId), auth.WithClientSecret(clientSecret), auth.WithScopes(auth.ScopeUserReadPrivate, auth.ScopeUserReadPlaybackState, auth.ScopeUserModifyPlaybackState, auth.ScopeStreaming))
 	validToken   oauth2.Token
 	a            = agent.New(conf, agent.WithToken(validToken))
+	d            = device.New()
 )
 
 func main() {
@@ -62,13 +64,18 @@ func main() {
 	getPlaylistsRequest := requests.New(requests.WithRequestURL("me/playlists"), requests.WithBaseURL("https://api.spotify.com/v1/"))
 	paramRequest := requests.New(requests.WithRequestURL("browse/new-releases"), requests.WithBaseURL("https://api.spotify.com/v1/"))
 	playerRequest := requests.New(requests.WithRequestURL("me/player/devices"), requests.WithBaseURL("https://api.spotify.com/v1/"))
+	playerRequest1 := requests.New(requests.WithRequestURL("me/player/"), requests.WithBaseURL("https://api.spotify.com/v1/"))
+
 	requests.GetRequest(a, getPlaylistsRequest)
 	requests.ParamRequest(a, paramRequest)
 	requests.ParamRequest(a, playerRequest)
-	//	fmt.Println(getPlaylistsRequest.BaseURL + string(getPlaylistsRequest.Response))
-	//	fmt.Println(paramRequest.BaseURL + paramRequest.RequestURL + string(paramRequest.Response))
-
-	fmt.Println(playerRequest.BaseURL + playerRequest.RequestURL + string(playerRequest.Response))
+	requests.GetRequest(a, playerRequest1)
+	err = d.GetCurrentDevice(a)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	fmt.Println(d)
 }
 
 func AuthoriseSession(w http.ResponseWriter, r *http.Request) {

@@ -1,55 +1,56 @@
 package device
 
 type Device struct {
-	id                 string
-	is_active          string
-	is_private_session string
-	name               string
-	device_type        string
-	volume_percent     string
-	supports_volume    string
+	ID               string `json:"id"`
+	IsActive         bool   `json:"is_active"`
+	IsPrivateSession bool   `json:"is_private_session"`
+	IsRestricted     bool   `json:"is_restricted"`
+	Name             string `json:"name"`
+	SupportsVolume   bool   `json:"supports_volume"`
+	Type             string `json:"type"`
+	VolumePercent    int    `json:"volume_percent"`
 }
 
-type DeviceOpt func(device *Device)
+type Opt func(device *Device)
 
-func withId(s string) DeviceOpt {
+func withId(s string) Opt {
 	return func(d *Device) {
-		d.id = s
-	}
-}
-
-func withIs_active(s string) DeviceOpt {
-	return func(d *Device) {
-		d.is_active = s
-	}
-}
-func withIs_private_session(s string) DeviceOpt {
-	return func(d *Device) {
-		d.is_private_session = s
-	}
-}
-func withName(s string) DeviceOpt {
-	return func(d *Device) {
-		d.name = s
-	}
-}
-func withDevice_type(s string) DeviceOpt {
-	return func(d *Device) {
-		d.device_type = s
-	}
-}
-func withVolume_Percent(s string) DeviceOpt {
-	return func(d *Device) {
-		d.volume_percent = s
-	}
-}
-func withSupports_volume(s string) DeviceOpt {
-	return func(d *Device) {
-		d.supports_volume = s
+		d.ID = s
 	}
 }
 
-func New(deviceOpts ...DeviceOpt) *Device {
+func withIsActive(s bool) Opt {
+	return func(d *Device) {
+		d.IsActive = s
+	}
+}
+func withIsPrivateSession(s bool) Opt {
+	return func(d *Device) {
+		d.IsPrivateSession = s
+	}
+}
+func withName(s string) Opt {
+	return func(d *Device) {
+		d.Name = s
+	}
+}
+func withDeviceType(s string) Opt {
+	return func(d *Device) {
+		d.Type = s
+	}
+}
+func withVolumePercent(s int) Opt {
+	return func(d *Device) {
+		d.VolumePercent = s
+	}
+}
+func withSupportsVolume(s bool) Opt {
+	return func(d *Device) {
+		d.SupportsVolume = s
+	}
+}
+
+func New(deviceOpts ...Opt) *Device {
 	d := &Device{}
 	for _, opt := range deviceOpts {
 		opt(d)
