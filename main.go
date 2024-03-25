@@ -55,27 +55,34 @@ func main() {
 	}
 	err := errors.New("")
 	a.Token, err = auth.RefreshToken(conf, context.Background(), a.Token)
-	fmt.Println(a.Conf.Scopes)
 	if err != nil {
 		log.Fatalf("Token Refresh error: %s", err.Error())
 	}
 	a.Client = auth.Client(conf, context.Background(), a.Token)
 
-	getPlaylistsRequest := requests.New(requests.WithRequestURL("me/playlists"), requests.WithBaseURL("https://api.spotify.com/v1/"))
-	paramRequest := requests.New(requests.WithRequestURL("browse/new-releases"), requests.WithBaseURL("https://api.spotify.com/v1/"))
-	playerRequest := requests.New(requests.WithRequestURL("me/player/devices"), requests.WithBaseURL("https://api.spotify.com/v1/"))
-	playerRequest1 := requests.New(requests.WithRequestURL("me/player/"), requests.WithBaseURL("https://api.spotify.com/v1/"))
-
-	requests.GetRequest(a, getPlaylistsRequest)
-	requests.ParamRequest(a, paramRequest)
-	requests.ParamRequest(a, playerRequest)
-	requests.GetRequest(a, playerRequest1)
 	err = d.GetCurrentDevice(a)
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
-	fmt.Println(d)
+	fmt.Printf("%+v\n", d)
+
+	c := requests.New()
+	err = d.ChangeVolume(a, c, 10)
+	if err != nil {
+		fmt.Println("broke:" + err.Error())
+		return
+	}
+	fmt.Printf("%+v\n", c)
+	err = d.GetCurrentDevice(a)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	fmt.Printf("%+v\n", d)
+
+	fmt.Printf("%+v\n", a.Client)
 }
 
 func AuthoriseSession(w http.ResponseWriter, r *http.Request) {

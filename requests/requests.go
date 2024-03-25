@@ -3,6 +3,8 @@ package requests
 import (
 	"errors"
 	"io/ioutil"
+	"net/http"
+	"net/url"
 	agent "wrappinator.agent"
 )
 
@@ -14,6 +16,7 @@ type ClientRequest struct {
 	BaseURL    string
 	RequestURL string
 	Response   []byte
+	Method     string
 }
 
 type ClientOpt func(clientRequest *ClientRequest)
@@ -57,5 +60,41 @@ func ParamRequest(a *agent.Agent, request *ClientRequest, opts ...RequestOption)
 	request.Response, err = ioutil.ReadAll(res.Body)
 	if err != nil {
 		request.Response = nil
+	}
+}
+
+func PutRequest(a *agent.Agent, c *ClientRequest, opts ...RequestOption) {
+	fullUrl := c.BaseURL + c.RequestURL
+	if params := ProcessOptions(opts...).urlParams.Encode(); params != "" {
+		fullUrl += "?" + params
+	}
+	requrl, err := url.Parse(fullUrl)
+	if err != nil {
+		return
+	}
+	head := http.Header{}
+	bearerval := "bearer " + a.Token.AccessToken
+	head.Set("Authorization", bearerval)
+	req := http.Request{Method: "PUT", URL: requrl, Header: head}
+	res, err := a.Client.Do(&req)
+	if err != nil {
+		c.Response = []byte(err.Error())
+		return
+	}
+	c.Response, err = ioutil.ReadAll(res.Body)
+	if err != nil {
+		c.Response = []byte(err.Error())
+	}
+}
+
+func ParamFormRequest(a *agent.Agent, c *ClientRequest, opts ...RequestOption) {
+	fullUrl := c.BaseURL + c.RequestURL
+	if params := ProcessOptions(opts...).urlParams; params != nil {
+		res, _ := a.Client.PostForm(fullUrl, params)
+		err := errors.New("")
+		c.Response, err = ioutil.ReadAll(res.Body)
+		if err != nil {
+			c.Response = nil
+		}
 	}
 }
