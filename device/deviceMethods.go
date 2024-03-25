@@ -3,6 +3,7 @@ package device
 import (
 	"encoding/json"
 	"errors"
+	_ "golang.org/x/exp/slices"
 	"strconv"
 	agent "wrappinator.agent"
 	requests "wrappinator.requests"
@@ -49,4 +50,18 @@ func (d *Device) ChangeVolume(a *agent.Agent, c *requests.ClientRequest, increme
 		return err
 	}
 	return nil
+}
+
+func PlayPause(a *agent.Agent, action string) error {
+	actions := []string{"pause", "play", "next", "previous"}
+
+	for _, v := range actions {
+		if action == v {
+			c := requests.New(requests.WithRequestURL("me/player/"+action), requests.WithBaseURL(BaseURL))
+			requests.PutRequest(a, c)
+			return nil
+		}
+	}
+	return errors.New("invalid action")
+
 }
