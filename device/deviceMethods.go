@@ -96,16 +96,15 @@ func (d *Device) PlayCustom(a *agent.Agent, contextUri *string, position *int, p
 	var reqopts []requests.RequestOption
 	i := 0
 	for k, v := range m {
-		//	if v != nil && v != "" {
 		switch v.(type) {
 		case int:
 			reqopts[i] = CustomField(k, strconv.Itoa(v.(int)))
 		case string:
 			reqopts[i] = CustomField(k, v.(string))
 		}
-		//	}
 		i++
 	}
+
 	c := requests.New(requests.WithBaseURL(BaseURL), requests.WithRequestURL("me/player/play"))
 	requests.PutRequest(a, c, reqopts...)
 	if c.Response == nil || len(c.Response) == 0 {
