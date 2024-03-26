@@ -51,7 +51,7 @@ func GetRequest(a *agent.Agent, request *ClientRequest) {
 
 func ParamRequest(a *agent.Agent, request *ClientRequest, opts ...RequestOption) {
 	fullUrl := request.BaseURL + request.RequestURL
-	if params := ProcessOptions(opts...).urlParams.Encode(); params != "" {
+	if params := ProcessOptions(opts...).UrlParams.Encode(); params != "" {
 		fullUrl += "?" + params
 	}
 
@@ -65,7 +65,7 @@ func ParamRequest(a *agent.Agent, request *ClientRequest, opts ...RequestOption)
 
 func PutRequest(a *agent.Agent, c *ClientRequest, opts ...RequestOption) {
 	fullUrl := c.BaseURL + c.RequestURL
-	if params := ProcessOptions(opts...).urlParams.Encode(); params != "" {
+	if params := ProcessOptions(opts...).UrlParams.Encode(); params != "" {
 		fullUrl += "?" + params
 	}
 	requrl, err := url.Parse(fullUrl)
@@ -89,7 +89,7 @@ func PutRequest(a *agent.Agent, c *ClientRequest, opts ...RequestOption) {
 
 func ParamFormRequest(a *agent.Agent, c *ClientRequest, opts ...RequestOption) {
 	fullUrl := c.BaseURL + c.RequestURL
-	if params := ProcessOptions(opts...).urlParams; params != nil {
+	if params := ProcessOptions(opts...).UrlParams; params != nil {
 		res, _ := a.Client.PostForm(fullUrl, params)
 		err := errors.New("")
 		c.Response, err = ioutil.ReadAll(res.Body)

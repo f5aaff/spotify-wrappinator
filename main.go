@@ -12,7 +12,6 @@ import (
 	agent "wrappinator.agent"
 	auth "wrappinator.auth"
 	device "wrappinator.device"
-	requests "wrappinator.requests"
 )
 
 const (
@@ -66,23 +65,16 @@ func main() {
 		return
 	}
 	fmt.Printf("%+v\n", d)
+	// this paused my music, very jarring
+	//	err = d.PlayPause(a, "pause")
 
-	c := requests.New()
-	err = d.ChangeVolume(a, c, 10)
-	if err != nil {
-		fmt.Println("broke:" + err.Error())
-		return
-	}
-	fmt.Printf("%+v\n", c)
-	err = d.GetCurrentDevice(a)
+	fmt.Println(d.GetCurrentlyPlaying(a))
+	fmt.Println(d.GetQueue(a))
+	contextUri := "spotify:show:0qw2sRabL5MOuWg6pgyIiY"
+	err = d.PlayCustom(a, &contextUri, nil, nil)
 	if err != nil {
 		fmt.Println(err)
-		return
 	}
-
-	fmt.Printf("%+v\n", d)
-
-	fmt.Printf("%+v\n", a.Client)
 }
 
 func AuthoriseSession(w http.ResponseWriter, r *http.Request) {

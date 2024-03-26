@@ -3,7 +3,6 @@ package device
 import (
 	"encoding/json"
 	"errors"
-	_ "golang.org/x/exp/slices"
 	"strconv"
 	agent "wrappinator.agent"
 	requests "wrappinator.requests"
@@ -19,7 +18,7 @@ type DevList struct {
 
 // GetCurrentDevice
 //makes a request for a list of the available devices, returns a device struct of the active device
-//marshals spotify response into struct containing list of devices, changes method caller to response from request./**
+//marshals spotify response into struct containing list owf devices, changes method caller to response from request./**
 func (d *Device) GetCurrentDevice(a *agent.Agent) error {
 	c := requests.New(requests.WithRequestURL("me/player/devices"), requests.WithBaseURL(BaseURL))
 	requests.GetRequest(a, c)
@@ -52,7 +51,7 @@ func (d *Device) ChangeVolume(a *agent.Agent, c *requests.ClientRequest, increme
 	return nil
 }
 
-func PlayPause(a *agent.Agent, action string) error {
+func (d *Device) PlayPause(a *agent.Agent, action string) error {
 	actions := []string{"pause", "play", "next", "previous"}
 
 	for _, v := range actions {
@@ -64,4 +63,54 @@ func PlayPause(a *agent.Agent, action string) error {
 	}
 	return errors.New("invalid action")
 
+}
+
+func (d *Device) GetCurrentlyPlaying(a *agent.Agent) (string, error) {
+	c := requests.New(requests.WithBaseURL(BaseURL), requests.WithRequestURL("me/player/currently-playing"))
+	requests.GetRequest(a, c)
+	if c.Response != nil {
+		return string(c.Response), nil
+	}
+	return "", errors.New("error retrieving song")
+}
+
+func (d *Device) GetQueue(a *agent.Agent) (string, error) {
+	c := requests.New(requests.WithBaseURL(BaseURL), requests.WithRequestURL("me/player/queue"))
+	requests.GetRequest(a, c)
+	if c.Response != nil {
+		return string(c.Response), nil
+	}
+	return "", errors.New("could not retrieve queue")
+}
+
+func CustomField(field string, val string) requests.RequestOption {
+	return func(reqOpt *requests.RequestOptions) {
+		reqOpt.UrlParams.Set(field, val)
+	}
+}
+
+func (d *Device) PlayCustom(a *agent.Agent, contextUri *string, position *int, position_ms *int) error {
+
+	m := map[string]interface{}{"context_uri": contextUri, "position": position, "position_ms": position_ms}
+
+	var reqopts []requests.RequestOption
+	i := 0
+	for k, v := range m {
+		//	if v != nil && v != "" {
+		switch v.(type) {
+		case int:
+			reqopts[i] = CustomField(k, strconv.Itoa(v.(int)))
+		case string:
+			reqopts[i] = CustomField(k, v.(string))
+		}
+		//	}
+		i++
+	}
+	c := requests.New(requests.WithBaseURL(BaseURL), requests.WithRequestURL("me/player/play"))
+	requests.PutRequest(a, c, reqopts...)
+	if c.Response == nil || len(c.Response) == 0 {
+		return errors.New("error playing song")
+	}
+
+	return nil
 }
