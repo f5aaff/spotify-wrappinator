@@ -6,29 +6,29 @@ import (
 )
 
 type RequestOptions struct {
-	urlParams url.Values
+	UrlParams url.Values
 }
 
 type RequestOption func(options *RequestOptions)
 
 func Limit(limit int) RequestOption {
 	return func(reqOpt *RequestOptions) {
-		reqOpt.urlParams.Set("limit", strconv.Itoa(limit))
+		reqOpt.UrlParams.Set("limit", strconv.Itoa(limit))
 	}
 }
-func Fields(fields string) RequestOption {
+func Fields(field string, val string) RequestOption {
 	return func(reqOpt *RequestOptions) {
-		reqOpt.urlParams.Set("fields", fields)
+		reqOpt.UrlParams.Set(field, val)
 	}
 }
 func Timestamp(timestamp string) RequestOption {
 	return func(reqOpt *RequestOptions) {
-		reqOpt.urlParams.Set("timestamp", timestamp)
+		reqOpt.UrlParams.Set("timestamp", timestamp)
 	}
 }
 func ProcessOptions(options ...RequestOption) RequestOptions {
 	opts := RequestOptions{
-		urlParams: url.Values{},
+		UrlParams: url.Values{},
 	}
 	for _, opt := range options {
 		opt(&opts)

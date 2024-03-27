@@ -1,4 +1,4 @@
-module wrappinator.agent
+module wrappinator.device
 
 go 1.18
 
