@@ -27,9 +27,7 @@ var (
 	validToken         oauth2.Token
 )
 
-type SearchOption func(options *requests.RequestOptions)
-
-func Query(query string, tagvals map[string]string) SearchOption {
+func Query(query string, tagvals map[string]string) requests.RequestOption {
 	return func(ro *requests.RequestOptions) {
 		acceptedTags := []string{"album", "artist", "track", "year", "upc", "hipster", "new", "isrc", "genre"}
 		var tagString string
@@ -48,24 +46,24 @@ func Query(query string, tagvals map[string]string) SearchOption {
 	}
 }
 
-func Types(types []string) SearchOption {
+func Types(types []string) requests.RequestOption {
 	return func(ro *requests.RequestOptions) {
 		input := fmt.Sprintf(strings.Join(types[:], ","))
 		input = url.QueryEscape(input)
 		ro.UrlParams.Set("type", input)
 	}
 }
-func Market(market string) SearchOption {
+func Market(market string) requests.RequestOption {
 	return func(ro *requests.RequestOptions) {
 		ro.UrlParams.Set("market", market)
 	}
 }
-func Offset(offset int) SearchOption {
+func Offset(offset int) requests.RequestOption {
 	return func(ro *requests.RequestOptions) {
 		ro.UrlParams.Set("limit", strconv.Itoa(offset))
 	}
 }
-func IncludeExternal(audio bool) SearchOption {
+func IncludeExternal(audio bool) requests.RequestOption {
 	return func(ro *requests.RequestOptions) {
 		if audio {
 			ro.UrlParams.Set("include_external", "audio")
