@@ -1,16 +1,15 @@
 package agent
 
 import (
-	"context"
-	"encoding/json"
-	"errors"
+	"fmt"
 	"github.com/joho/godotenv"
 	"golang.org/x/oauth2"
-	"io/ioutil"
-	"log"
-	"net/http"
+	"net/url"
 	"os"
+	"strconv"
+	"strings"
 	auth "wrappinator.auth"
+	requests "wrappinator.requests"
 )
 
 const (
@@ -28,4 +27,48 @@ var (
 	validToken         oauth2.Token
 )
 
+type SearchOption func(options *requests.RequestOptions)
 
+func Query(query string, tagvals map[string]string) SearchOption {
+	return func(ro *requests.RequestOptions) {
+		acceptedTags := []string{"album", "artist", "track", "year", "upc", "hipster", "new", "isrc", "genre"}
+		var tagString string
+		for k, v := range tagvals {
+			for _, a := range acceptedTags {
+				if k == a {
+					tag := fmt.Sprintf("%s:%s", k, v)
+					tagString = fmt.Sprintf("%s,%s", tagString, tag)
+				}
+			}
+		}
+		query = url.QueryEscape(query)
+		tagString = url.QueryEscape(tagString)
+		res := fmt.Sprintf("%s\\% %s", query, tagString)
+		ro.UrlParams.Set("q", res)
+	}
+}
+
+func Types(types []string) SearchOption {
+	return func(ro *requests.RequestOptions) {
+		input := fmt.Sprintf(strings.Join(types[:], ","))
+		input = url.QueryEscape(input)
+		ro.UrlParams.Set("type", input)
+	}
+}
+func Market(market string) SearchOption {
+	return func(ro *requests.RequestOptions) {
+		ro.UrlParams.Set("market", market)
+	}
+}
+func Offset(offset int) SearchOption {
+	return func(ro *requests.RequestOptions) {
+		ro.UrlParams.Set("limit", strconv.Itoa(offset))
+	}
+}
+func IncludeExternal(audio bool) SearchOption {
+	return func(ro *requests.RequestOptions) {
+		if audio {
+			ro.UrlParams.Set("include_external", "audio")
+		}
+	}
+}
