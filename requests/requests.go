@@ -49,7 +49,7 @@ func GetRequest(a *agent.Agent, request *ClientRequest) {
 	}
 }
 
-func ParamRequest(a *agent.Agent, request *ClientRequest, opts ...RequestOption) {
+func ParamRequest(a *agent.Agent, request *ClientRequest, opts ...RequestOption) string {
 	fullUrl := request.BaseURL + request.RequestURL
 	if params := ProcessOptions(opts...).UrlParams.Encode(); params != "" {
 		fullUrl += "?" + params
@@ -61,6 +61,7 @@ func ParamRequest(a *agent.Agent, request *ClientRequest, opts ...RequestOption)
 	if err != nil {
 		request.Response = nil
 	}
+	return fullUrl
 }
 
 func PutRequest(a *agent.Agent, c *ClientRequest, opts ...RequestOption) {

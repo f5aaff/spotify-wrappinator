@@ -29,7 +29,12 @@ var (
 
 func listparam(listIn []string, paramKey string) requests.RequestOption {
 	return func(ro *requests.RequestOptions) {
-		values := fmt.Sprintf(strings.Join(listIn[:], ","))
+		var values string
+		if len(listIn) > 1 {
+			values = fmt.Sprintf(strings.Join(listIn[:], ","))
+		} else if len(values) != 0 {
+			values = listIn[0]
+		}
 		values = url.QueryEscape(values)
 		ro.UrlParams.Set(paramKey, values)
 	}
@@ -48,46 +53,43 @@ func intParam(inputVal int, paramKey string) requests.RequestOption {
 		ro.UrlParams.Set(paramKey, strconv.Itoa(inputVal))
 	}
 }
-func SeedList(seedList []string) {
-	acceptedSeeds := []string{"seed_artists", "seed_genres", "seed_tracks"}
-	input := []string{}
-	for x, y := range acceptedSeeds {
-		if seedList[x] == y {
-			input = append(input, seedList[x])
-		}
-		listparam(input, "seed_list")
-	}
-}
 
 func ListParams(inputMap map[string][]string) requests.RequestOption {
-	acceptedKeys := []string{"seed_artists", "seed_genres", "seed_tracks"}
-
-	for _, key := range acceptedKeys {
-		input, ok := inputMap[key]
-		if ok {
-			listparam(input, key)
+	return func(ro *requests.RequestOptions) {
+		acceptedKeys := []string{"seed_artists", "seed_genres", "seed_tracks"}
+		for _, key := range acceptedKeys {
+			input, ok := inputMap[key]
+			if ok {
+				var values string
+				if len(input) != 0 {
+					values = fmt.Sprintf(strings.Join(input[:], ","))
+					values = url.QueryEscape(values)
+					ro.UrlParams.Set(key, values)
+				}
+			}
 		}
 	}
-	return nil
 }
 func PercentParams(inputMap map[string]int) requests.RequestOption {
-	acceptedKeys := []string{"min_acousticness", "max_acousticness", "target_acousticness", "min_danceability", "max_danceability", "target_danceability", "min_duration_ms", "max_duration_ms", "target_duration_ms", "min_energy", "max_energy", "target_energy", "min_instrumentalness", "max_instrumentalness", "target_instrumentalness", "min_keymax_key", "target_key", "min_liveness", "max_liveness", "target_liveness", "min_loudness", "max_loudness", "target_loudness", "min_mode", "max_mode", "target_mode", "min_popularity", "max_popularity", "target_popularity", "min_speechiness", "max_speechiness", "target_speechiness", "min_valence", "max_valence", "target_valence"}
-	for _, y := range acceptedKeys {
-		input, ok := inputMap[y]
-		if ok {
-			percentParam(input, y)
+	return func(options *requests.RequestOptions) {
+		acceptedKeys := []string{"min_acousticness", "max_acousticness", "target_acousticness", "min_danceability", "max_danceability", "target_danceability", "min_duration_ms", "max_duration_ms", "target_duration_ms", "min_energy", "max_energy", "target_energy", "min_instrumentalness", "max_instrumentalness", "target_instrumentalness", "min_keymax_key", "target_key", "min_liveness", "max_liveness", "target_liveness", "min_loudness", "max_loudness", "target_loudness", "min_mode", "max_mode", "target_mode", "min_popularity", "max_popularity", "target_popularity", "min_speechiness", "max_speechiness", "target_speechiness", "min_valence", "max_valence", "target_valence"}
+		for _, y := range acceptedKeys {
+			input, ok := inputMap[y]
+			if ok {
+				percentParam(input, y)
+			}
 		}
 	}
-	return nil
 }
 
 func IntParams(inputMap map[string]int) requests.RequestOption {
-	acceptedKeys := []string{"min_tempo", "max_tempo", "target_tempo", "min_time_signature", "max_time_signature", "target_time_signature"}
-	for _, y := range acceptedKeys {
-		input, ok := inputMap[y]
-		if ok {
-			intParam(input, y)
+	return func(options *requests.RequestOptions) {
+		acceptedKeys := []string{"min_tempo", "max_tempo", "target_tempo", "min_time_signature", "max_time_signature", "target_time_signature"}
+		for _, y := range acceptedKeys {
+			input, ok := inputMap[y]
+			if ok {
+				intParam(input, y)
+			}
 		}
 	}
-	return nil
 }
