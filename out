@@ -1,0 +1,1338 @@
+&{ID:8d5236f7886101ac0c1f2b2e432b79f64d173af8 IsActive:true IsPrivateSession:false IsRestricted:false Name:f5adff's Z Flip3 SupportsVolume:false Type:Smartphone VolumePercent:100}
+{
+  "timestamp" : 1712074733950,
+  "context" : null,
+  "progress_ms" : 1162544,
+  "item" : null,
+  "currently_playing_type" : "episode",
+  "actions" : {
+    "disallows" : {
+      "resuming" : true
+    }
+  },
+  "is_playing" : true
+} <nil>
+{
+  "currently_playing" : {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/36XEuYaeUL1geneInv8H5A/clip_1293200_1340250.mp3",
+    "description" : "When a bounty is called on Christ Sux (special guest Abdul Aziz) our heroes take the case. But maybe they should be less focus on the bounty, and more on who called for the bounty...Thanks again to Abdul for joining us on this one, and check out his great ttrpg podcast Spout Lore. You'll be glad you did!!WE MAKE ANOTHER PODCAST:  Oh These Those Stars of Space!  In all sincerity, it's extremely fun and if you're not listening you are hurting yourself for NOTHING.Follow us on twitter for goodness sake, it's fun! And it's probably the best way to contact us, all things considered.Special Thanks as always to Sydney and Benjamin Paul and Tyler Button!This episode features additional sound design by Michaël Ghelfi. Michaël creates brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on YouTube, and support that good stuff on Patreon.Subscribe and Rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review!Advertise on Rude Tales of Magic via Gumball.fm.Support the show: https://www.rudetalesofmagic.com/See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 4101511,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/4fIxykRtDvxDZpJCnrPwFS"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/4fIxykRtDvxDZpJCnrPwFS",
+    "html_description" : "<p>When a bounty is called on Christ Sux (special guest Abdul Aziz) our heroes take the case. But maybe they should be less focus on the bounty, and more on who called for the bounty...</p><p><br /></p><p>Thanks again to Abdul for joining us on this one, and check out his great ttrpg podcast <a href=\"https://www.spoutlore.com/\" rel=\"nofollow\">Spout Lore</a>. You&#39;ll be glad you did!!</p><p><br /></p><p>WE MAKE ANOTHER PODCAST:  <a href=\"https://ohthesethosestarsofspace.simplecast.com/\" rel=\"nofollow\">Oh These Those Stars of Space!</a>  In all sincerity, it&#39;s extremely fun and if you&#39;re not listening you are hurting yourself for NOTHING.</p><p><br /></p><p>Follow us on <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">twitter</a> for goodness sake, it&#39;s fun! And it&#39;s probably the best way to contact us, all things considered.</p><p><br /></p><p>Special Thanks as always to Sydney and Benjamin Paul and Tyler Button!</p><p><br /></p><p>This episode features additional sound design by Michaël Ghelfi. Michaël creates brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on YouTube, and support that good stuff on Patreon.</p><p><br /></p><p>Subscribe and Rate Rude Tales of Magic on<a href=\"https://podcasts.apple.com/us/podcast/rude-tales-of-magic/id1480593911\" rel=\"nofollow\"> Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><p><br /></p><p>Advertise on Rude Tales of Magic via <a href=\"https://gumball.fm/\" rel=\"nofollow\">Gumball.fm</a>.</p><p><br /></p><p>Support the show: <a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">https://www.rudetalesofmagic.com/</a></p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "4fIxykRtDvxDZpJCnrPwFS",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a257e1f7392062c09ef035c44",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f257e1f7392062c09ef035c44",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d257e1f7392062c09ef035c44",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "The Virgin Suisux (with special guest Abdul Aziz)",
+    "release_date" : "2024-04-02",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:4fIxykRtDvxDZpJCnrPwFS"
+  },
+  "queue" : [ {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/1S9jVMINsS3ovnaeQ3GZFe/clip_4513300_4558700.mp3",
+    "description" : "One loose thread hunts another in the shadowed labyrinth of Scrum North, the erstwhile temple-cum-Kenku bandit hideaway. Blades in the dark. Betrayals remembered. Promises made. A new power dips a toe in the water. Can we escape our past? Would we even want to? Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 5464920,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/3pO0F6rhqtlGcSvGxDDwEB"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/3pO0F6rhqtlGcSvGxDDwEB",
+    "html_description" : "<p>One loose thread hunts another in the shadowed labyrinth of Scrum North, the erstwhile temple-cum-Kenku bandit hideaway. Blades in the dark. Betrayals remembered. Promises made. A new power dips a toe in the water. Can we escape our past? Would we even want to?</p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "3pO0F6rhqtlGcSvGxDDwEB",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "A Murder of Crows",
+    "release_date" : "2020-04-07",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:3pO0F6rhqtlGcSvGxDDwEB"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/0J5BBFysdOdRxY5CRmQq7A/clip_2866050_2932200.mp3",
+    "description" : "Sorry we don't have a patreon. JUST KIDDING YOU HANDSOME LIL DEVIL! ITS RIGHT THERE CLICK THERE I WAS JUST KIDDING WE HAVE ONE ITS GREAT! Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 5824731,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/13rWbcWCpThBCSUt0gqJAy"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/13rWbcWCpThBCSUt0gqJAy",
+    "html_description" : "<p>Sorry we don&#39;t have a patreon.</p><br/><p><a href=\"https://patreon.com/rudetalesofmagic\" rel=\"nofollow\">JUST KIDDING YOU HANDSOME LIL DEVIL! ITS RIGHT THERE CLICK THERE I WAS JUST KIDDING WE HAVE ONE ITS GREAT!</a></p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "13rWbcWCpThBCSUt0gqJAy",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "Pack Your Bags",
+    "release_date" : "2020-04-22",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:13rWbcWCpThBCSUt0gqJAy"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/0ND2LT2hfdtZ4W71stRxTd/clip_2305500_2373200.mp3",
+    "description" : "We are just thrilled as a cricket and pleased as a pretty peach pie to have Brennan Lee Mulligan as our first guest star. Brennan has been a huge influence on the show from before our first episode, is one of the greatest living Dungeon Masters and, good news for you, you can watch him work his magic on the hilarious and brilliant actual play show, Dimension 20 (youtube) (twitter) (insta) If you like Rude Tales, you are commanded to check out Dimension 20. Godspeed, lil bodhisattva. Our patreon gets better and better day by day by day. Won't you join us? Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 6180231,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/2MiRa3NfefgtF6FJNIXomz"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/2MiRa3NfefgtF6FJNIXomz",
+    "html_description" : "<p>We are just thrilled as a cricket and pleased as a pretty peach pie to have <a href=\"https://twitter.com/BrennanLM\" rel=\"nofollow\">Brennan Lee Mulligan</a> as our first guest star. Brennan has been a huge influence on the show from before our first episode, is one of the greatest living Dungeon Masters and, good news for you, you can watch him work his magic on the hilarious and brilliant actual play show, Dimension 20 (<a href=\"https://t.co/zxb6Pe81XL?amp&#61;1\" rel=\"nofollow\">youtube</a>) (<a href=\"https://twitter.com/dimension20show\" rel=\"nofollow\">twitter</a>) (<a href=\"https://www.instagram.com/dimension20show/?hl&#61;en\" rel=\"nofollow\">insta</a>) If you like Rude Tales, you are commanded to check out Dimension 20. Godspeed, lil bodhisattva.</p><br/><p><a href=\"https://www.patreon.com/rudetalesofmagic\" rel=\"nofollow\">Our patreon </a>gets better and better day by day by day. Won&#39;t you join us?</p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "2MiRa3NfefgtF6FJNIXomz",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "Mountaintop (with special guest star Brennan Lee Mulligan)",
+    "release_date" : "2020-05-05",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:2MiRa3NfefgtF6FJNIXomz"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/71fAm4KcsBmr157zmH0YFE/clip_270577_322828.mp3",
+    "description" : "patreon.com/rudetalesofmagic Recently recovered Cordelian artifacts have revealed themselves to be semi-permanent  (and quickly degrading), solidified auditory illusion spells, created by mage, historian, and naturalist, Thimbit Leavings, an unknown number of years ago in an attempt to document and market a collection of recorded sounds cataloging the entire natural, political, and cultural history of Cordelia.   We will be sharing them with you at random. patreon.com/rudetalesofmagic Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 519680,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/0JVdy7LzVK9pNFjMwUssxH"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/0JVdy7LzVK9pNFjMwUssxH",
+    "html_description" : "<p><a href=\"https://patreon.com/rudetalesofmagic\" rel=\"nofollow\">patreon.com/rudetalesofmagic</a></p><br/><p>Recently recovered Cordelian artifacts have revealed themselves to be semi-permanent  (and quickly degrading), solidified auditory illusion spells, created by mage, historian, and naturalist, Thimbit Leavings, an unknown number of years ago in an attempt to document and market a collection of recorded sounds cataloging the entire natural, political, and cultural history of Cordelia.  </p><br/><p>We will be sharing them with you at random.</p><br/><p><a href=\"https://patreon.com/rudetalesofmagic\" rel=\"nofollow\">patreon.com/rudetalesofmagic</a></p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "0JVdy7LzVK9pNFjMwUssxH",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "[UNLOCKED] Encyclopedia Cordelia: Origins of Empire",
+    "release_date" : "2020-05-14",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:0JVdy7LzVK9pNFjMwUssxH"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/3TFZb0ag9xBVl7jgiIy68h/clip_1984600_2044550.mp3",
+    "description" : "We thought that while we're locked out of the studio due to NeoPlague, we'd nonetheless keep recording (We would never call ourselves heroes, but you are of course welcome to.) Only this time we'd tell a whole new story (same vibe) with whole new characters (somehow even dumber), exploring the world of Cordelia's bonkers past (like its present but over).   No need to worry, the original gang will return as soon as they can. Until then though, WE HAVE SUCH SIGHTS TO SHOW YOU. twitter.com/of_rude patreon.com/rudetalesofmagic Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 6646439,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/64mmkZ9wGOMwQ2XaHPVKUu"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/64mmkZ9wGOMwQ2XaHPVKUu",
+    "html_description" : "<p>We thought that while we&#39;re locked out of the studio due to NeoPlague, we&#39;d nonetheless keep recording (We would never call ourselves heroes, but you are of course welcome to.) Only this time we&#39;d tell a whole new story (same vibe) with whole new characters (somehow even dumber), exploring the world of Cordelia&#39;s bonkers past (like its present but over).  </p><br/><p>No need to worry, the original gang will return as soon as they can. Until then though, WE HAVE SUCH SIGHTS TO SHOW YOU.</p><br/><p><a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">twitter.com/of_rude</a></p><br/><p><a href=\"https://patreon.com/rudetalesofmagic\" rel=\"nofollow\">patreon.com/rudetalesofmagic</a></p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "64mmkZ9wGOMwQ2XaHPVKUu",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "[NEW Miniseries!] Come At The King: Chapter 1",
+    "release_date" : "2020-05-20",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:64mmkZ9wGOMwQ2XaHPVKUu"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/4aCNvIhWhehrA03siIdIma/clip_0_34298.mp3",
+    "description" : "https://secure.actblue.com/donate/bail_funds_george_floyd Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm.   Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 43389,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/3Xl9BjX00xLtT136Z6B5d9"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/3Xl9BjX00xLtT136Z6B5d9",
+    "html_description" : "<p><a href=\"https://secure.actblue.com/donate/bail_funds_george_floyd\" rel=\"nofollow\">https://secure.actblue.com/donate/bail_funds_george_floyd</a></p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><br/><p> </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "3Xl9BjX00xLtT136Z6B5d9",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "Black Lives Matter. Solidarity Forever.",
+    "release_date" : "2020-06-02",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:3Xl9BjX00xLtT136Z6B5d9"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/5bp52M8dbiYLAwdwc35Upc/clip_4620400_4695000.mp3",
+    "description" : "If you're at all able, consider giving to Black and Pink,  an incredible organization dedicated to dismantling the criminal punishment system and the harms caused to LGBTQ+ people and people living with HIV/AIDS who are affected by the system through advocacy, support, and organizing. And then, follow us on Twitter. And  and also too, good lord, come on, we gotta say it again? Get us on Patreon dog! It's a gd world o'wonders over there. Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 5396035,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/7Iv0jqbx2Bs3joU9eFwGnT"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/7Iv0jqbx2Bs3joU9eFwGnT",
+    "html_description" : "<p>If you&#39;re at all able, consider giving to <a href=\"https://www.blackandpink.org/\" rel=\"nofollow\">Black and Pink,  </a>an incredible organization dedicated to dismantling the criminal punishment system and the harms caused to LGBTQ&#43; people and people living with HIV/AIDS who are affected by the system through advocacy, support, and organizing.</p><br/><p><a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">And then, follow us on Twitter.</a></p><br/><p>And  and also too, good lord, come on, we gotta say it again? Get us on Patreon dog! It&#39;s a gd world o&#39;wonders over there.</p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "7Iv0jqbx2Bs3joU9eFwGnT",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "[Miniseries] Come At the King: Chapter 2",
+    "release_date" : "2020-06-16",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:7Iv0jqbx2Bs3joU9eFwGnT"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/5QUwBgZPeWwQhzBIDlMJBt/clip_1624150_1692150.mp3",
+    "description" : "If you're at all able, consider giving to Black and Pink,  an incredible organization dedicated to dismantling the criminal punishment system and the harms caused to LGBTQ+ people and people living with HIV/AIDS who are affected by the system through advocacy, support, and organizing. And then, follow us on Twitter. And  and also too, good lord, come on, we gotta say it again? Get us on Patreon dog! It's a gd world o'wonders over there. Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 4412055,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/0tIg1zAmBcAH0qrUEtIWSb"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/0tIg1zAmBcAH0qrUEtIWSb",
+    "html_description" : "<p>If you&#39;re at all able, consider giving to <a href=\"https://www.blackandpink.org/\" rel=\"nofollow\">Black and Pink,  </a>an incredible organization dedicated to dismantling the criminal punishment system and the harms caused to LGBTQ&#43; people and people living with HIV/AIDS who are affected by the system through advocacy, support, and organizing.</p><br/><p><a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">And then, follow us on Twitter.</a></p><br/><p>And  and also too, good lord, come on, we gotta say it again? Get us on Patreon dog! It&#39;s a gd world o&#39;wonders over there.</p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "0tIg1zAmBcAH0qrUEtIWSb",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "[Miniseries] Come at the King: Chapter 3",
+    "release_date" : "2020-07-01",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:0tIg1zAmBcAH0qrUEtIWSb"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/2FeB3riTiKltXHjviZb6Bp/clip_274861_334861.mp3",
+    "description" : "Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you're already a subscriber, thank you. If you're not, well, it's never too early to blossom into the patron butterfly THE LORD intended you to be. Do so HERE. And follow us on twitter for goodness sake, it's fun! We're very happy to now publicly thank our new producers, Sydney and Benjamin Paul. Without your support we'd be eating cat food at a higher frequency than we do currently. This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on YouTube, and support that good stuff on Patreon.  Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 5030661,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/3WIswplqiLEFSghRRba8cu"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/3WIswplqiLEFSghRRba8cu",
+    "html_description" : "<p>Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you&#39;re already a subscriber, thank you. If you&#39;re not, well, it&#39;s never too early to blossom into the patron butterfly THE LORD intended you to be. Do so <a href=\"https://patreon.com/rudetalesofmagic\" rel=\"nofollow\">HERE.</a></p><br/><p>And <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">follow us on twitter</a> for goodness sake, it&#39;s fun!</p><br/><p>We&#39;re very happy to now publicly thank our new producers, Sydney and Benjamin Paul. Without your support we&#39;d be eating cat food at a higher frequency than we do currently.</p><br/><p>This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on <a href=\"https://www.youtube.com/channel/UCDed9jQ1Y1gKeyjvkyFGkCA\" rel=\"nofollow\">YouTube</a>, and<a href=\"https://www.patreon.com/MichaelGhelfi/\" rel=\"nofollow\"> support that good stuff on Patreon. </a></p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "3WIswplqiLEFSghRRba8cu",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "[Miniseries] Come at the King: Chapter 4",
+    "release_date" : "2020-07-14",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:3WIswplqiLEFSghRRba8cu"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/7cbcGoLur3lqapPgRNKaI7/clip_185095_245095.mp3",
+    "description" : "RIGHT NOW GO TO RUDETALESOFMAGIC.COM, for we have our VERY FIRST merch on sale now!  It's tshirts! For YOUR body! Theres one with a skull and one with just words. What are ya gonna do walk around topless all day? What if the neighbors/students/parishoners see? Better get a shirt on! Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you're already a subscriber, thank you. If you're not, well, it's never too early to blossom into the patron butterfly THE LORD intended you to be. Do so HERE. And follow us on twitter for goodness sake, it's fun! And it's probably the best way to contact us, all things considered. We're very happy to now publicly thank our new producers, Sydney and Benjamin Paul. Without your support we'd be eating cat food at a higher frequency than we do currently. This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on YouTube, and support that good stuff on Patreon.  Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 4553743,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/2oPPWfXxM6H2dsKPl5u8xW"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/2oPPWfXxM6H2dsKPl5u8xW",
+    "html_description" : "<p>RIGHT NOW GO TO <a href=\"https://www.rudetalesofmagic.com\" rel=\"nofollow\">RUDETALESOFMAGIC.COM,</a> for we have our VERY FIRST merch on sale now!  It&#39;s tshirts! For YOUR body! Theres one with a skull and one with just words. What are ya gonna do walk around topless all day? What if the neighbors/students/parishoners see? Better get a shirt on!</p><br/><p>Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you&#39;re already a subscriber, thank you. If you&#39;re not, well, it&#39;s never too early to blossom into the patron butterfly THE LORD intended you to be. Do so <a href=\"https://patreon.com/rudetalesofmagic\" rel=\"nofollow\">HERE.</a></p><br/><p>And <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">follow us on twitter</a> for goodness sake, it&#39;s fun! And it&#39;s probably the best way to contact us, all things considered.</p><br/><p>We&#39;re very happy to now publicly thank our new producers, Sydney and Benjamin Paul. Without your support we&#39;d be eating cat food at a higher frequency than we do currently.</p><br/><p>This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on <a href=\"https://www.youtube.com/channel/UCDed9jQ1Y1gKeyjvkyFGkCA\" rel=\"nofollow\">YouTube</a>, and<a href=\"https://www.patreon.com/MichaelGhelfi/\" rel=\"nofollow\"> support that good stuff on Patreon. </a></p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "2oPPWfXxM6H2dsKPl5u8xW",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "[Miniseries] Come at the King: Chapter 5",
+    "release_date" : "2020-07-28",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:2oPPWfXxM6H2dsKPl5u8xW"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/2SD3DMVNj6rZ7yWmq6pyto/clip_3105900_3152600.mp3",
+    "description" : "RIGHT NOW GO TO RUDETALESOFMAGIC.COM, for we have our VERY FIRST merch on sale now!  It's t-shirts! For YOUR body! There's one with a skull and one with just words. What are ya gonna do walk around topless all day? What if the neighbors/students/parishoners see? Better get a shirt on! Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you're already a subscriber, thank you. If you're not, well, it's never too early to blossom into the patron butterfly THE LORD intended you to be. Do so HERE. And follow us on twitter for goodness sake, it's fun! And it's probably the best way to contact us, all things considered. We're very happy to now publicly thank our new producers, Sydney and Benjamin Paul. Without your support we'd have an actual bucket for a hat, instead of these very nice bucket hats. This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on YouTube, and support that good stuff on Patreon.  Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 5412493,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/3miO7Hi6mZETA779SRgmfk"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/3miO7Hi6mZETA779SRgmfk",
+    "html_description" : "<p>RIGHT NOW GO TO <a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">RUDETALESOFMAGIC.COM,</a> for we have our VERY FIRST merch on sale now!  It&#39;s t-shirts! For YOUR body! There&#39;s one with a skull and one with just words. What are ya gonna do walk around topless all day? What if the neighbors/students/parishoners see? Better get a shirt on!</p><br/><p>Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you&#39;re already a subscriber, thank you. If you&#39;re not, well, it&#39;s never too early to blossom into the patron butterfly THE LORD intended you to be. Do so <a href=\"https://patreon.com/rudetalesofmagic\" rel=\"nofollow\">HERE.</a></p><br/><p>And <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">follow us on twitter</a> for goodness sake, it&#39;s fun! And it&#39;s probably the best way to contact us, all things considered.</p><br/><p>We&#39;re very happy to now publicly thank our new producers, Sydney and Benjamin Paul. Without your support we&#39;d have an actual bucket for a hat, instead of these very nice bucket hats.</p><br/><p>This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on <a href=\"https://www.youtube.com/channel/UCDed9jQ1Y1gKeyjvkyFGkCA\" rel=\"nofollow\">YouTube</a>, and<a href=\"https://www.patreon.com/MichaelGhelfi/\" rel=\"nofollow\"> support that good stuff on Patreon. </a></p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "3miO7Hi6mZETA779SRgmfk",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "[Miniseries] Come at the King: Chapter 6",
+    "release_date" : "2020-08-12",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:3miO7Hi6mZETA779SRgmfk"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/3uu0IrDMwwCFJn7ZlUZ72o/clip_4589300_4661200.mp3",
+    "description" : "RIGHT NOW GO TO RUDETALESOFMAGIC.COM, for for tickets to our first live stream THIS FRIDAY, the 28th! Hurry!  Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you're already a subscriber, thank you. If you're not, well, it's never too early to blossom into the patron butterfly THE LORD intended you to be. Do so HERE. And follow us on twitter for goodness sake, it's fun! And it's probably the best way to contact us, all things considered. We're very happy to now publicly thank our new producers, Sydney and Benjamin Paul. Without your support we'd have an actual bucket for a hat, instead of these very nice bucket hats. This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on YouTube, and support that good stuff on Patreon.  Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 7001756,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/6YwI9FGMF2p13cgShy4Fhl"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/6YwI9FGMF2p13cgShy4Fhl",
+    "html_description" : "<p>RIGHT NOW GO TO <a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">RUDETALESOFMAGIC.COM,</a> for for tickets to our first live stream THIS FRIDAY, the 28th! Hurry! </p><br/><p>Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you&#39;re already a subscriber, thank you. If you&#39;re not, well, it&#39;s never too early to blossom into the patron butterfly THE LORD intended you to be. Do so <a href=\"https://patreon.com/rudetalesofmagic\" rel=\"nofollow\">HERE.</a></p><br/><p>And <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">follow us on twitter</a> for goodness sake, it&#39;s fun! And it&#39;s probably the best way to contact us, all things considered.</p><br/><p>We&#39;re very happy to now publicly thank our new producers, Sydney and Benjamin Paul. Without your support we&#39;d have an actual bucket for a hat, instead of these very nice bucket hats.</p><br/><p>This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on <a href=\"https://www.youtube.com/channel/UCDed9jQ1Y1gKeyjvkyFGkCA\" rel=\"nofollow\">YouTube</a>, and<a href=\"https://www.patreon.com/MichaelGhelfi/\" rel=\"nofollow\"> support that good stuff on Patreon. </a></p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "6YwI9FGMF2p13cgShy4Fhl",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "[Miniseries] Come at the King: The Final Chapter",
+    "release_date" : "2020-08-25",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:6YwI9FGMF2p13cgShy4Fhl"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/2rnx2U2fDskwGxLFVZUbXC/clip_97750_157700.mp3",
+    "description" : "Lasers and Feelings is one page, free, by John Harper, and you can get it here: http://www.onesevendesign.com/laserfeelings/ ALSO Fortunate Horse, the studio behind Rude Tales of Magic is launching our very first GAME! It's called As You 'Wich, and yes it is about sandwiches.  It's easy, it's funny and it's very affordable. Get yours riiiight here.  Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 207960,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/2gj1qjVVsJP5SHqCKV90r8"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/2gj1qjVVsJP5SHqCKV90r8",
+    "html_description" : "<p>Lasers and Feelings is one page, free, by John Harper, and you can get it here: http://www.onesevendesign.com/laserfeelings/</p><br/><p>ALSO</p><br/><p>Fortunate Horse, the studio behind Rude Tales of Magic is launching our very first GAME! It&#39;s called As You &#39;Wich, and yes it is about sandwiches. </p><br/><p>It&#39;s easy, it&#39;s funny and it&#39;s very affordable. <a href=\"https://www.kickstarter.com/projects/1777481875/as-you-wich?ref&#61;3sko4p&amp;token&#61;9f271521\" rel=\"nofollow\">Get yours riiiight here. </a></p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "2gj1qjVVsJP5SHqCKV90r8",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "TEASER Lasers and Feelings #1",
+    "release_date" : "2020-09-08",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:2gj1qjVVsJP5SHqCKV90r8"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/3k9RKhdBCbpYpD4CxDOxFz/clip_1016100_1067900.mp3",
+    "description" : "Check out all the cool stuff on rudetalesofmagic.com. Like our new Polaris University hoodies and sweatshirts. Wow look at that. Neat! The kickstarter for the new Fortunate Horse tabletop game, As You Wich, is RIGHT HERE.  Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you're already a subscriber, thank you. If you're not, well, it's never too early to blossom into the patron butterfly THE LORD intended you to be. Do so HERE. And follow us on twitter for goodness sake, it's fun! And it's probably the best way to contact us, all things considered. We're very happy to now publicly thank our new producers, Sydney and Benjamin Paul, and our newest addition, JTrofe. Without your support we'd have an actual bucket for a hat, instead of these very nice bucket hats. Thank you. This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on YouTube, and support that good stuff on Patreon.  AND!! The \"Trashlands\" music appears courtesy of Derek & Brandon Fiechter. You can support them on Bandcamp right here Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 5169580,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/1mPmLumr2cLIhnK0k4mDfi"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/1mPmLumr2cLIhnK0k4mDfi",
+    "html_description" : "<p>Check out all the cool stuff on rudetalesofmagic.com. Like our new Polaris University hoodies and sweatshirts. Wow look at that. Neat!</p><br/><p>The kickstarter for the new Fortunate Horse tabletop game, As You Wich, is RIGHT HERE. </p><br/><p>Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you&#39;re already a subscriber, thank you. If you&#39;re not, well, it&#39;s never too early to blossom into the patron butterfly THE LORD intended you to be. Do so <a href=\"https://patreon.com/rudetalesofmagic\" rel=\"nofollow\">HERE.</a></p><br/><p>And <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">follow us on twitter</a> for goodness sake, it&#39;s fun! And it&#39;s probably the best way to contact us, all things considered.</p><br/><p>We&#39;re very happy to now publicly thank our new producers, Sydney and Benjamin Paul, and our newest addition, JTrofe. Without your support we&#39;d have an actual bucket for a hat, instead of these very nice bucket hats. Thank you.</p><br/><p>This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on <a href=\"https://www.youtube.com/channel/UCDed9jQ1Y1gKeyjvkyFGkCA\" rel=\"nofollow\">YouTube</a>, and<a href=\"https://www.patreon.com/MichaelGhelfi/\" rel=\"nofollow\"> support that good stuff on Patreon. </a></p><br/><p>AND!! The &#34;Trashlands&#34; music appears courtesy of <a href=\"https://dbfiechter.bandcamp.com/\" rel=\"nofollow\">Derek &amp; Brandon Fiechter</a>. You can support them on Bandcamp <a href=\"https://dbfiechter.bandcamp.com/album/the-lone-wanderer\" rel=\"nofollow\">right here</a></p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "1mPmLumr2cLIhnK0k4mDfi",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "A Stranger Comes to Town",
+    "release_date" : "2020-09-22",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:1mPmLumr2cLIhnK0k4mDfi"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/7259VosazQ56nvCcqCn9wx/clip_3082000_3141500.mp3",
+    "description" : "Get more content like this: the Rude Crew plays horror, sci fi, and...animal-based...ttrpgs all on our award winning* Patreon! Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 9040326,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/3mpoLwEYzDjrv33enzpcBA"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/3mpoLwEYzDjrv33enzpcBA",
+    "html_description" : "<p>Get more content like this: the Rude Crew plays horror, sci fi, and...animal-based...ttrpgs all on our award winning* Patreon!</p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "3mpoLwEYzDjrv33enzpcBA",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "UNLOCKED: Blood Tales of Depravity",
+    "release_date" : "2020-10-06",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:3mpoLwEYzDjrv33enzpcBA"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/1ztEfyqy3qID7IM9WZp8AX/clip_567593_627593.mp3",
+    "description" : "Tickets for the Halloween live show are on sale NOW at rudetalesofmagic.com.  Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you're already a subscriber, thank you. If you're not, well, it's never too early to blossom into the patron butterfly THE LORD intended you to be. Do so HERE. And follow us on twitter for goodness sake, it's fun! And it's probably the best way to contact us, all things considered. We're very happy to now publicly thank our exec producers, Sydney and Benjamin Paul. Without your support we'd have an actual bucket for a hat, instead of these very nice bucket hats. Thank you. This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on YouTube, and support that good stuff on Patreon.  AND!! The \"Trashlands\" music appears courtesy of Derek & Brandon Fiechter. You can support them on Bandcamp right here Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 5805165,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/1rkTAHE2JDxYSu1r3rR2MI"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/1rkTAHE2JDxYSu1r3rR2MI",
+    "html_description" : "<p>Tickets for the Halloween live show are on sale NOW at <a href=\"https://dashboard.simplecast.com/accounts/69a667a9-2d0f-4e11-96b6-ac01c566cc4e/shows/3a90ea54-1d2a-412b-bc0f-7d1fe41ba0b6/episodes/bb20fd71-94ac-458a-81c1-06e874c13dda/rudetalesofmagic.com\" rel=\"nofollow\">rudetalesofmagic.com</a>. </p><br/><p>Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you&#39;re already a subscriber, thank you. If you&#39;re not, well, it&#39;s never too early to blossom into the patron butterfly THE LORD intended you to be. Do so <a href=\"https://patreon.com/rudetalesofmagic\" rel=\"nofollow\">HERE.</a></p><br/><p>And <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">follow us on twitter</a> for goodness sake, it&#39;s fun! And it&#39;s probably the best way to contact us, all things considered.</p><br/><p>We&#39;re very happy to now publicly thank our exec producers, Sydney and Benjamin Paul. Without your support we&#39;d have an actual bucket for a hat, instead of these very nice bucket hats. Thank you.</p><br/><p>This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on <a href=\"https://www.youtube.com/channel/UCDed9jQ1Y1gKeyjvkyFGkCA\" rel=\"nofollow\">YouTube</a>, and<a href=\"https://www.patreon.com/MichaelGhelfi/\" rel=\"nofollow\"> support that good stuff on Patreon. </a></p><br/><p>AND!! The &#34;Trashlands&#34; music appears courtesy of <a href=\"https://dbfiechter.bandcamp.com/\" rel=\"nofollow\">Derek &amp; Brandon Fiechter</a>. You can support them on Bandcamp <a href=\"https://dbfiechter.bandcamp.com/album/the-lone-wanderer\" rel=\"nofollow\">right here</a></p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "1rkTAHE2JDxYSu1r3rR2MI",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "Rain of Terror",
+    "release_date" : "2020-10-13",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:1rkTAHE2JDxYSu1r3rR2MI"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/1IqNX9nvOAuUuw2SJnyLDG/clip_385274_445274.mp3",
+    "description" : "Tickets for the next live show are on sale NOW at rudetalesofmagic.com.  Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you're already a subscriber, thank you. If you're not, well, it's never too early to blossom into the patron butterfly THE LORD intended you to be. Do so HERE. And follow us on twitter for goodness sake, it's fun! And it's probably the best way to contact us, all things considered. We're very happy to now publicly thank our exec producers, Sydney and Benjamin Paul. Without your support we'd have an actual bucket for a hat, instead of these very nice bucket hats. Thank you. This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on YouTube, and support that good stuff on Patreon.  AND!! The \"Trashlands\" music appears courtesy of Derek & Brandon Fiechter. You can support them on Bandcamp right here Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 5443343,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/1MCWxvKYtJebWFuYMmTmP9"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/1MCWxvKYtJebWFuYMmTmP9",
+    "html_description" : "<p>Tickets for the next live show are on sale NOW at <a href=\"https://dashboard.simplecast.com/accounts/69a667a9-2d0f-4e11-96b6-ac01c566cc4e/shows/3a90ea54-1d2a-412b-bc0f-7d1fe41ba0b6/episodes/bb20fd71-94ac-458a-81c1-06e874c13dda/rudetalesofmagic.com\" rel=\"nofollow\">rudetalesofmagic.com</a>. </p><br/><p>Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you&#39;re already a subscriber, thank you. If you&#39;re not, well, it&#39;s never too early to blossom into the patron butterfly THE LORD intended you to be. Do so <a href=\"https://patreon.com/rudetalesofmagic\" rel=\"nofollow\">HERE.</a></p><br/><p>And <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">follow us on twitter</a> for goodness sake, it&#39;s fun! And it&#39;s probably the best way to contact us, all things considered.</p><br/><p>We&#39;re very happy to now publicly thank our exec producers, Sydney and Benjamin Paul. Without your support we&#39;d have an actual bucket for a hat, instead of these very nice bucket hats. Thank you.</p><br/><p>This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on <a href=\"https://www.youtube.com/channel/UCDed9jQ1Y1gKeyjvkyFGkCA\" rel=\"nofollow\">YouTube</a>, and<a href=\"https://www.patreon.com/MichaelGhelfi/\" rel=\"nofollow\"> support that good stuff on Patreon. </a></p><br/><p>AND!! The &#34;Trashlands&#34; music appears courtesy of <a href=\"https://dbfiechter.bandcamp.com/\" rel=\"nofollow\">Derek &amp; Brandon Fiechter</a>. You can support them on Bandcamp <a href=\"https://dbfiechter.bandcamp.com/album/the-lone-wanderer\" rel=\"nofollow\">right here</a></p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "1MCWxvKYtJebWFuYMmTmP9",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "The Shish Kebab Express",
+    "release_date" : "2020-10-21",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:1MCWxvKYtJebWFuYMmTmP9"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/5mZnzAH3FxI9Amm4I7bAAM/clip_641329_701329.mp3",
+    "description" : "Check out our store at rudetalesofmagic.com for HOT HOT deals on sweet sweet shirts, live show  recordings, and more! We got Polaris University sweaters for the cold weather! We thought of everything! Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you're already a subscriber, thank you. If you're not, well, it's never too early to blossom into the patron butterfly THE LORD intended you to be. Do so HERE. And follow us on twitter for goodness sake, it's fun! And it's probably the best way to contact us, all things considered. We're very happy to now publicly thank our exec producers, Sydney and Benjamin Paul. Without your support we'd have an actual bucket for a hat, instead of these very nice bucket hats. Thank you. This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on YouTube, and support that good stuff on Patreon.  AND!! The \"Trashlands\" music appears courtesy of Derek & Brandon Fiechter. You can support them on Bandcamp right here Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 4725995,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/1WBKs9USijqtv21eKgBopd"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/1WBKs9USijqtv21eKgBopd",
+    "html_description" : "<p>Check out our store at <a href=\"https://rudetalesofmagic.com/\" rel=\"nofollow\">rudetalesofmagic.com</a> for HOT HOT deals on sweet sweet shirts, live show  recordings, and more! We got Polaris University sweaters for the cold weather! We thought of everything!</p><br/><p>Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you&#39;re already a subscriber, thank you. If you&#39;re not, well, it&#39;s never too early to blossom into the patron butterfly THE LORD intended you to be. Do so <a href=\"https://patreon.com/rudetalesofmagic\" rel=\"nofollow\">HERE.</a></p><br/><p>And <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">follow us on twitter</a> for goodness sake, it&#39;s fun! And it&#39;s probably the best way to contact us, all things considered.</p><br/><p>We&#39;re very happy to now publicly thank our exec producers, Sydney and Benjamin Paul. Without your support we&#39;d have an actual bucket for a hat, instead of these very nice bucket hats. Thank you.</p><br/><p>This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on <a href=\"https://www.youtube.com/channel/UCDed9jQ1Y1gKeyjvkyFGkCA\" rel=\"nofollow\">YouTube</a>, and<a href=\"https://www.patreon.com/MichaelGhelfi/\" rel=\"nofollow\"> support that good stuff on Patreon. </a></p><br/><p>AND!! The &#34;Trashlands&#34; music appears courtesy of <a href=\"https://dbfiechter.bandcamp.com/\" rel=\"nofollow\">Derek &amp; Brandon Fiechter</a>. You can support them on Bandcamp <a href=\"https://dbfiechter.bandcamp.com/album/the-lone-wanderer\" rel=\"nofollow\">right here</a></p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "1WBKs9USijqtv21eKgBopd",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "Breaking Dawn",
+    "release_date" : "2020-11-03",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:1WBKs9USijqtv21eKgBopd"
+  }, {
+    "audio_preview_url" : "https://podz-content.spotifycdn.com/audio/clips/6VAv2qILOzNrhBJHYPNBJm/clip_1892800_1945900.mp3",
+    "description" : "This episode of Rude Tales of Magic is brought to you by Inked Gaming, your high quality source for table top gaming gear that isn't made of terrible poison like all the other guys, you know the ones! Use code RUDETALES for 10% off at checkout, or don't, your funeral, hotshot! Check out our store at rudetalesofmagic.com for HOT HOT deals on sweet sweet shirts, live show  recordings, and more! We got Polaris University sweaters for the cold weather! We thought of everything! Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you're already a subscriber, thank you. If you're not, well, it's never too early to blossom into the patron butterfly THE LORD intended you to be. Do so HERE. And follow us on twitter for goodness sake, it's fun! And it's probably the best way to contact us, all things considered. We're very happy to now publicly thank our exec producers, Sydney and Benjamin Paul. Without your support we'd have an actual bucket for a hat, instead of these very nice bucket hats. Thank you. This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on YouTube, and support that good stuff on Patreon.  AND!! The \"Trashlands\" music appears courtesy of Derek & Brandon Fiechter. You can support them on Bandcamp right here   ANSWER TO RIDDLE: I am that book you ate. Subscribe to and rate Rude Tales of Magic on Apple Podcasts and Spotify and leave us a review! Follow the show:Twitter: @of_rudeInstagram: @rudetalesofmagic Advertise on Rude Tales of Magic via Gumball.fm. Support the show: https://www.rudetalesofmagic.com/See omnystudio.com/listener for privacy information.See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info.",
+    "duration_ms" : 5999124,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/5tBVwI9KZAIwgemYHUFtra"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/5tBVwI9KZAIwgemYHUFtra",
+    "html_description" : "<p>This episode of Rude Tales of Magic is brought to you by<a href=\"https://www.inkedgaming.com/pages/rudetales\" rel=\"nofollow\"> Inked Gaming</a>, your high quality source for table top gaming gear that isn&#39;t made of terrible poison like all the other guys, you know the ones! Use code RUDETALES for 10% off at checkout, or don&#39;t, your funeral, hotshot!</p><br/><p>Check out our store at <a href=\"https://rudetalesofmagic.com/\" rel=\"nofollow\">rudetalesofmagic.com</a> for HOT HOT deals on sweet sweet shirts, live show  recordings, and more! We got Polaris University sweaters for the cold weather! We thought of everything!</p><br/><p>Our Patreon keeps the lights on and truly, in all sincerity is what keeps the show going. If you&#39;re already a subscriber, thank you. If you&#39;re not, well, it&#39;s never too early to blossom into the patron butterfly THE LORD intended you to be. Do so <a href=\"https://patreon.com/rudetalesofmagic\" rel=\"nofollow\">HERE.</a></p><br/><p>And <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">follow us on twitter</a> for goodness sake, it&#39;s fun! And it&#39;s probably the best way to contact us, all things considered.</p><br/><p>We&#39;re very happy to now publicly thank our exec producers, Sydney and Benjamin Paul. Without your support we&#39;d have an actual bucket for a hat, instead of these very nice bucket hats. Thank you.</p><br/><p>This episode features additional sound design by Michaël Ghelfi. Michaël creates all sort of brilliantly crafted soundscapes and ambient tracks for all sort of productions and they make perfect accompaniment to your ttrpg home games. Find his work on <a href=\"https://www.youtube.com/channel/UCDed9jQ1Y1gKeyjvkyFGkCA\" rel=\"nofollow\">YouTube</a>, and<a href=\"https://www.patreon.com/MichaelGhelfi/\" rel=\"nofollow\"> support that good stuff on Patreon. </a></p><br/><p>AND!! The &#34;Trashlands&#34; music appears courtesy of <a href=\"https://dbfiechter.bandcamp.com/\" rel=\"nofollow\">Derek &amp; Brandon Fiechter</a>. You can support them on Bandcamp <a href=\"https://dbfiechter.bandcamp.com/album/the-lone-wanderer\" rel=\"nofollow\">right here</a></p><br/><p> </p><br/><p>ANSWER TO RIDDLE: I am that book you ate.</p><br/><p>Subscribe to and rate Rude Tales of Magic on <a href=\"https://podcasts.apple.com/us/podcast/id1480593911\" rel=\"nofollow\">Apple Podcasts</a> and <a href=\"https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm\" rel=\"nofollow\">Spotify</a> and leave us a review!</p><br/><p>Follow the show:<br />Twitter: <a href=\"https://twitter.com/of_rude\" rel=\"nofollow\">&#64;of_rude</a><br />Instagram: &#64;rudetalesofmagic</p><br/><p>Advertise on <a href=\"https://gumball.fm/shows/rude-tales-of-magic/62b3481409835a23906623a2\" rel=\"nofollow\">Rude Tales of Magic</a> via Gumball.fm. </p><p><a href=\"https://www.rudetalesofmagic.com/\" rel=\"nofollow\">Support the show: https://www.rudetalesofmagic.com/</a></p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p><p>See Privacy Policy at <a href=\"https://art19.com/privacy\" rel=\"nofollow\">https://art19.com/privacy</a> and California Privacy Notice at <a href=\"https://art19.com/privacy#do-not-sell-my-info\" rel=\"nofollow\">https://art19.com/privacy#do-not-sell-my-info</a>.</p>",
+    "id" : "5tBVwI9KZAIwgemYHUFtra",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "en",
+    "languages" : [ "en" ],
+    "name" : "Riddle Guy",
+    "release_date" : "2020-11-18",
+    "release_date_precision" : "day",
+    "show" : {
+      "available_markets" : [ "AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "JP", "KE", "KH", "KI", "KM", "KN", "KW", "LA", "LB", "LC", "LI", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PL", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW" ],
+      "copyrights" : [ ],
+      "description" : "In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester's retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University's vanishment and return balance and higher education to their world. It's going to be very hard and very, very, rude.",
+      "explicit" : true,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/show/0Cz64iRr8LBIX6SqwM0kYm"
+      },
+      "href" : "https://api.spotify.com/v1/shows/0Cz64iRr8LBIX6SqwM0kYm",
+      "html_description" : "<p>In this improvised narrative role playing podcast, come and join artists, writers, and comedians from Adult Swim, Cartoon Network, Comedy Central, Marvel Comics, and more as they fight and fumble their way across the madcap, and exceedingly rude, fantasy wasteland of Cordelia. Branson Reese and his jester&#39;s retinue, Christopher Hastings, Carly Monardo, Tim Platt, Joe Lepore, and Ali Fisher star as a group of unlikely survivors (a talking crow, a lich in a wig, a bubbly fawn, a Sasquatch punk, and a tiefling hunk, specifically) who must solve the mystery of Polaris University&#39;s vanishment and return balance and higher education to their world. It&#39;s going to be very hard and very, very, rude.</p>",
+      "id" : "0Cz64iRr8LBIX6SqwM0kYm",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab6765630000ba8a72108930679215b01fdf372a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67656300005f1f72108930679215b01fdf372a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab6765630000f68d72108930679215b01fdf372a",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "languages" : [ "en" ],
+      "media_type" : "audio",
+      "name" : "Rude Tales of Magic",
+      "publisher" : "Bucket of Milk",
+      "total_episodes" : 117,
+      "type" : "show",
+      "uri" : "spotify:show:0Cz64iRr8LBIX6SqwM0kYm"
+    },
+    "type" : "episode",
+    "uri" : "spotify:episode:5tBVwI9KZAIwgemYHUFtra"
+  } ]
+} <nil>
