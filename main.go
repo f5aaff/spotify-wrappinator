@@ -11,12 +11,10 @@ import (
 	"os"
 	agent "wrappinator.agent"
 	auth "wrappinator.auth"
-<<<<<<< HEAD
 	device "wrappinator.device"
-=======
+	recommendations "wrappinator.recommendations"
 	requests "wrappinator.requests"
 	search "wrappinator.search"
->>>>>>> 14f1c94 (search works, extends requestOptions)
 )
 
 const (
@@ -64,7 +62,6 @@ func main() {
 	}
 	a.Client = auth.Client(conf, context.Background(), a.Token)
 
-<<<<<<< HEAD
 	err = d.GetCurrentDevice(a)
 	if err != nil {
 		fmt.Println(err)
@@ -74,14 +71,13 @@ func main() {
 	// this paused my music, very jarring
 	//	err = d.PlayPause(a, "pause")
 
-	fmt.Println(d.GetCurrentlyPlaying(a))
-	fmt.Println(d.GetQueue(a))
-	contextUri := "spotify:show:0qw2sRabL5MOuWg6pgyIiY"
-	err = d.PlayCustom(a, &contextUri, nil, nil)
-	if err != nil {
-		fmt.Println(err)
-	}
-=======
+	d.GetCurrentlyPlaying(a)
+	d.GetQueue(a)
+	//	contextUri := "spotify:show:0qw2sRabL5MOuWg6pgyIiY"
+	//	err = d.PlayCustom(a, &contextUri, nil, nil)
+	//	if err != nil {
+	//		fmt.Println(err)
+	//	}
 	getPlaylistsRequest := requests.New(requests.WithRequestURL("me/playlists"), requests.WithBaseURL("https://api.spotify.com/v1/"))
 	paramRequest := requests.New(requests.WithRequestURL("browse/new-releases"), requests.WithBaseURL("https://api.spotify.com/v1/"))
 	playerRequest := requests.New(requests.WithRequestURL("me/player/devices"), requests.WithBaseURL("https://api.spotify.com/v1/"))
@@ -89,10 +85,14 @@ func main() {
 	requests.ParamRequest(a, paramRequest)
 	requests.ParamRequest(a, playerRequest)
 	searchRequest := requests.New(requests.WithRequestURL("search"), requests.WithBaseURL("https://api.spotify.com/v1/"))
-	requests.ParamRequest(a, searchRequest, search.Query("jonathanTaylorThomas", map[string]string{"artist": "bones"}), search.Types([]string{"track"}), search.Market("ES"), requests.Limit(1))
-	fmt.Printf("URL:%s\nresponse:%s", searchRequest.BaseURL+searchRequest.RequestURL, string(searchRequest.Response))
-	//fmt.Println(playerRequest.BaseURL + playerRequest.RequestURL + string(playerRequest.Response))
->>>>>>> 14f1c94 (search works, extends requestOptions)
+	requests.ParamRequest(a, searchRequest, search.Query("thy art is murder", nil), search.Types([]string{"artist"}), search.Market("ES"), requests.Limit(1))
+	seedVals := map[string][]string{"seed_genres": {"deathmetal"}, "seed_artists": {"3et9upNERQI5IYt5jEDTxM"}}
+	percentVals := map[string]int{"max_loudness": 100, "min_loudness": 90}
+	intVals := map[string]int{"min_tempo": 80, "max_tempo": 200}
+	recRequest := requests.New(requests.WithRequestURL("recommendations"), requests.WithBaseURL("https://api.spotify.com/v1/"))
+	_ = requests.ParamRequest(a, recRequest, recommendations.ListParams(seedVals), requests.Limit(1), recommendations.PercentParams(percentVals), recommendations.IntParams(intVals))
+	fmt.Printf("%s", string(recRequest.Response))
+
 }
 
 func AuthoriseSession(w http.ResponseWriter, r *http.Request) {
