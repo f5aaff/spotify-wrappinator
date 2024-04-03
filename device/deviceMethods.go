@@ -1,4 +1,4 @@
-package wrappinator.device
+package spotify-wrappinator.device
 
 import (
 	"encoding/json"

@@ -1,4 +1,4 @@
-package wrappinator.auth
+package spotify-wrappinator.auth
 
 import (
 	"context"

@@ -1,4 +1,4 @@
-package wrappinator.recommendations
+package spotify-wrappinator.recommendations
 
 import (
 	"fmt"

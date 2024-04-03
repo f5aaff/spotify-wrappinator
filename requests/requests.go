@@ -1,4 +1,4 @@
-package wrappinator.requests
+package spotify-wrappinator.requests
 
 import (
 	"errors"
