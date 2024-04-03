@@ -86,11 +86,13 @@ func main() {
 	requests.ParamRequest(a, playerRequest)
 	searchRequest := requests.New(requests.WithRequestURL("search"), requests.WithBaseURL("https://api.spotify.com/v1/"))
 	requests.ParamRequest(a, searchRequest, search.Query("thy art is murder", nil), search.Types([]string{"artist"}), search.Market("ES"), requests.Limit(1))
-	//fmt.Println(string(searchRequest.Response))
-	inputVals := map[string][]string{"seed_genres": {"deathmetal"}, "seed_artists": {"3et9upNERQI5IYt5jEDTxM"}}
+	seedVals := map[string][]string{"seed_genres": {"deathmetal"}, "seed_artists": {"3et9upNERQI5IYt5jEDTxM"}}
+	percentVals := map[string]int{"max_loudness": 100, "min_loudness": 90}
+	intVals := map[string]int{"min_tempo": 80, "max_tempo": 200}
 	recRequest := requests.New(requests.WithRequestURL("recommendations"), requests.WithBaseURL("https://api.spotify.com/v1/"))
-	_ = requests.ParamRequest(a, recRequest, recommendations.ListParams(inputVals), requests.Limit(1))
+	_ = requests.ParamRequest(a, recRequest, recommendations.ListParams(seedVals), requests.Limit(1), recommendations.PercentParams(percentVals), recommendations.IntParams(intVals))
 	fmt.Printf("%s", string(recRequest.Response))
+
 }
 
 func AuthoriseSession(w http.ResponseWriter, r *http.Request) {

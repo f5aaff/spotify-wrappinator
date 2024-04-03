@@ -72,7 +72,7 @@ func ListParams(inputMap map[string][]string) requests.RequestOption {
 }
 func PercentParams(inputMap map[string]int) requests.RequestOption {
 	return func(options *requests.RequestOptions) {
-		acceptedKeys := []string{"min_acousticness", "max_acousticness", "target_acousticness", "min_danceability", "max_danceability", "target_danceability", "min_duration_ms", "max_duration_ms", "target_duration_ms", "min_energy", "max_energy", "target_energy", "min_instrumentalness", "max_instrumentalness", "target_instrumentalness", "min_keymax_key", "target_key", "min_liveness", "max_liveness", "target_liveness", "min_loudness", "max_loudness", "target_loudness", "min_mode", "max_mode", "target_mode", "min_popularity", "max_popularity", "target_popularity", "min_speechiness", "max_speechiness", "target_speechiness", "min_valence", "max_valence", "target_valence"}
+		acceptedKeys := []string{"min_acousticness", "max_acousticness", "target_acousticness", "min_danceability", "max_danceability", "target_danceability", "min_energy", "max_energy", "target_energy", "min_instrumentalness", "max_instrumentalness", "target_instrumentalness", "min_keymax_key", "target_key", "min_liveness", "max_liveness", "target_liveness", "min_loudness", "max_loudness", "target_loudness", "min_mode", "max_mode", "target_mode", "min_popularity", "max_popularity", "target_popularity", "min_speechiness", "max_speechiness", "target_speechiness", "min_valence", "max_valence", "target_valence"}
 		for _, y := range acceptedKeys {
 			input, ok := inputMap[y]
 			if ok {
@@ -84,7 +84,7 @@ func PercentParams(inputMap map[string]int) requests.RequestOption {
 
 func IntParams(inputMap map[string]int) requests.RequestOption {
 	return func(options *requests.RequestOptions) {
-		acceptedKeys := []string{"min_tempo", "max_tempo", "target_tempo", "min_time_signature", "max_time_signature", "target_time_signature"}
+		acceptedKeys := []string{"min_tempo", "max_tempo", "target_tempo", "min_time_signature", "max_time_signature", "target_time_signature", "min_duration_ms", "max_duration_ms", "target_duration_ms"}
 		for _, y := range acceptedKeys {
 			input, ok := inputMap[y]
 			if ok {
