@@ -1,4 +1,4 @@
-package spotify-wrappinator.search
+package spotify_wrappinator.search
 
 import (
 	"fmt"

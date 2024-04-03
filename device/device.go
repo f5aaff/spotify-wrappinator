@@ -1,4 +1,4 @@
-package spotify-wrappinator.device
+package spotify_wrappinator.device
 
 type Device struct {
 	ID               string `json:"id"`

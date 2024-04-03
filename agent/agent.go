@@ -1,4 +1,4 @@
-package spotify-wrappinator.agent
+package spotify_wrappinator.agent
 
 import (
 	"context"
