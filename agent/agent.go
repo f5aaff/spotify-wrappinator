@@ -1,4 +1,4 @@
-package agent
+package wrappinator.agent
 
 import (
 	"context"

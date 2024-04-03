@@ -1,4 +1,4 @@
-package device
+package wrappinator.device
 
 import (
 	"encoding/json"

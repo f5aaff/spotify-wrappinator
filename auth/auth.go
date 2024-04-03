@@ -1,4 +1,4 @@
-package auth
+package wrappinator.auth
 
 import (
 	"context"

@@ -1,4 +1,4 @@
-package agent
+package wrappinator.recommendations
 
 import (
 	"fmt"

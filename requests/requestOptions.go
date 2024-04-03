@@ -1,4 +1,4 @@
-package requests
+package wrappinator.requests
 
 import (
 	"net/url"

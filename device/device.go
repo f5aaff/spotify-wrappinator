@@ -1,4 +1,4 @@
-package device
+package wrappinator.device
 
 type Device struct {
 	ID               string `json:"id"`
