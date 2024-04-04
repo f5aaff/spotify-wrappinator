@@ -8,8 +8,8 @@ import (
 	"os"
 	"strconv"
 	"strings"
-	auth "wrappinator.auth"
-	requests "wrappinator.requests"
+	auth "auth"
+	requests "requests"
 )
 
 const (

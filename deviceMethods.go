@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 	"strconv"
-	agent "wrappinator.agent"
-	requests "wrappinator.requests"
+	agent "agent"
+	requests "requests"
 )
 
 const (
