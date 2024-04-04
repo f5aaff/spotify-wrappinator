@@ -10,7 +10,7 @@ import (
 	"log"
 	"net/http"
 	"os"
-	auth "wrappinator.auth"
+	auth "../auth/.auth"
 )
 
 const (
