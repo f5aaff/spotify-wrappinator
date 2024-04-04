@@ -1,0 +1,11 @@
+github.com/f5aaff/spotify-wrappinator/agent v0.0.0-20240404184045-bed788912186 h1:4z5xf3hjhoVfMzxSDqrDQyDH1J7nTy1QY5ET/skyGQw=
+github.com/f5aaff/spotify-wrappinator/agent v0.0.0-20240404184045-bed788912186/go.mod h1:zUrls52a1Ds8iCtVNJDQK3bf2RUmbgWcZQ1/xJY1uYk=
+github.com/f5aaff/spotify-wrappinator/auth v0.0.0-20240404183936-ad6385417927 h1:Wle9q2UWNMvMhBJJIVNr1xH5f3x7+cVuB60yK94iCr8=
+github.com/f5aaff/spotify-wrappinator/auth v0.0.0-20240404183936-ad6385417927/go.mod h1:FtSr1qVbmzOdaR4L/BuHTwzA8C0KRbVruho2M8KqXiA=
+github.com/f5aaff/spotify-wrappinator/requests v0.0.0-20240404184446-d9a477dd635f h1:PC8II4dx5pJftPImsyMRZVM/8YqXRrZoUb48ToIab0M=
+github.com/f5aaff/spotify-wrappinator/requests v0.0.0-20240404184446-d9a477dd635f/go.mod h1:GkVIKajFvK6mTYDAM7IrRplayRvMUH4tS+WN8qzgd4c=
+github.com/google/go-cmp v0.5.9 h1:O2Tfq5qg4qc4AmwVlvv0oLiVAGB7enBSJ2x2DqQFi38=
+github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
+github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
+golang.org/x/oauth2 v0.19.0 h1:9+E/EZBCbTLNrbN35fHv/a/d/mOBatymz1zbtQrXpIg=
+golang.org/x/oauth2 v0.19.0/go.mod h1:vYi7skDa1x015PmRRYZ7+s1cWyPgrPiSYRe4rnsexc8=
