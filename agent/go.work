@@ -2,5 +2,5 @@ go 1.18
 
 use (
 	.
-	../auth
+	github.com/f5aaff/spotify-wrappinator/auth
 )
