@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"net/url"
-	agent "wrappinator.agent"
+	agent "github.com/f5aaff/spotify-wrappinator/agent"
 )
 
 const (

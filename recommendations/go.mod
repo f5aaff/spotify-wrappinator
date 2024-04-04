@@ -1,3 +1,3 @@
-module wrappinator.recommendations
+module recommendations
 
 go 1.18

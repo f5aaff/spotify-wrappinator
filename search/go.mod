@@ -1,3 +1,3 @@
-module wrappinator.search
+module search
 
 go 1.18

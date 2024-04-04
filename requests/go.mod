@@ -1,4 +1,4 @@
-module wrappinator.requests
+module requests
 
 go 1.18
 

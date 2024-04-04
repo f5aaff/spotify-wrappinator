@@ -1,4 +1,4 @@
-module wrappinator.auth
+module auth
 
 go 1.18
 

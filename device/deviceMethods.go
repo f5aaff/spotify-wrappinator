@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 	"strconv"
-	agent "wrappinator.agent"
-	requests "wrappinator.requests"
+	agent "github.com/f5aaff/spotify-wrappinator/agent"
+	requests "github.com/f5aaff/spotify-wrappinator/requests"
 )
 
 const (

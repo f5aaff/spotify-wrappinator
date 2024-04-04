@@ -1,4 +1,4 @@
-package agent
+package search
 
 import (
 	"fmt"
@@ -8,8 +8,8 @@ import (
 	"os"
 	"strconv"
 	"strings"
-	auth "wrappinator.auth"
-	requests "wrappinator.requests"
+	auth "github.com/f5aaff/spotify-wrappinator/auth"
+	requests "github.com/f5aaff/spotify-wrappinator/requests"
 )
 
 const (

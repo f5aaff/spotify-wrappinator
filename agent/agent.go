@@ -10,7 +10,7 @@ import (
 	"log"
 	"net/http"
 	"os"
-	auth "wrappinator.auth"
+	auth "github.com/f5aaff/spotify-wrappinator/auth"
 )
 
 const (

@@ -1,4 +1,4 @@
-module wrappinator.device
+module device
 
 go 1.18
 

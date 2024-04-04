@@ -1,4 +1,4 @@
-module wrappinator.agent
+module agent
 
 go 1.18
 
