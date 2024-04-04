@@ -1,4 +1,4 @@
-module auth
+module github.com/f5aaff/spotify-wrappinator/auth
 
 go 1.18
 
