@@ -45,6 +45,7 @@ func (d *Device) GetDevices(dl *DevList,a *agent.Agent) (error) {
 	if err != nil {
 		return err
 	}
+    return nil
 }
 
 func (d *Device) ChangeVolume(a *agent.Agent, c *requests.ClientRequest, increment int) error {
