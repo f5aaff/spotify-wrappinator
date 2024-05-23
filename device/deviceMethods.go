@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"strconv"
+
 	agent "github.com/f5aaff/spotify-wrappinator/agent"
 	requests "github.com/f5aaff/spotify-wrappinator/requests"
 )
@@ -17,8 +18,8 @@ type DevList struct {
 }
 
 // GetCurrentDevice
-//makes a request for a list of the available devices, returns a device struct of the active device
-//marshals spotify response into struct containing list owf devices, changes method caller to response from request./**
+// makes a request for a list of the available devices, returns a device struct of the active device
+// marshals spotify response into struct containing list owf devices, changes method caller to response from request./**
 func (d *Device) GetCurrentDevice(a *agent.Agent) error {
 	c := requests.New(requests.WithRequestURL("me/player/devices"), requests.WithBaseURL(BaseURL))
 	requests.GetRequest(a, c)
@@ -35,6 +36,15 @@ func (d *Device) GetCurrentDevice(a *agent.Agent) error {
 	}
 	*d = list.Devices[0]
 	return nil
+}
+
+func (d *Device) GetDevices(dl *DevList,a *agent.Agent) (error) {
+    c := requests.New(requests.WithRequestURL("me/player/devices"), requests.WithBaseURL(BaseURL))
+	requests.GetRequest(a, c)
+	err := json.Unmarshal(c.Response, dl)
+	if err != nil {
+		return err
+	}
 }
 
 func (d *Device) ChangeVolume(a *agent.Agent, c *requests.ClientRequest, increment int) error {
