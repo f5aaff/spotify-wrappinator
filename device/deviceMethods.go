@@ -38,14 +38,14 @@ func (d *Device) GetCurrentDevice(a *agent.Agent) error {
 	return nil
 }
 
-func (d *Device) GetDevices(dl *DevList,a *agent.Agent) (error) {
+func (d *Device) GetDevices(dl *DevList,a *agent.Agent) ([]Device,error) {
     c := requests.New(requests.WithRequestURL("me/player/devices"), requests.WithBaseURL(BaseURL))
 	requests.GetRequest(a, c)
 	err := json.Unmarshal(c.Response, dl)
 	if err != nil {
-		return err
+		return nil,err
 	}
-    return nil
+    return dl.Devices,nil
 }
 
 func (d *Device) ChangeVolume(a *agent.Agent, c *requests.ClientRequest, increment int) error {
